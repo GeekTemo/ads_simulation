@@ -22,6 +22,8 @@ def test_ads_request():
         "versoft": "ios_banner_v1.0",
     }
     rsp = ads_request('post', url=url, data=data)
-    print rsp
+    import json
+    rd = json.loads(rsp)
+    print type(rd)
 
 test_ads_request()

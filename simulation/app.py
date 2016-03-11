@@ -1,7 +1,12 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+# Created by gongxingfa on 16/3/11
+
 import sys
+import string
 import urllib
 import logging
-from requests import Request
+from requests import Request, Session
 
 logging.basicConfig(level=logging.DEBUG,
                     format='%(asctime)s %(filename)s[line:%(lineno)d] %(levelname)s %(message)s',
@@ -10,10 +15,12 @@ logging.basicConfig(level=logging.DEBUG,
                     filemode='a')
 
 
-def ads_request(method, url, headers, data):
-    req = Request(method, url, headers=headers, data=data)
+def ads_request(method, url, headers=None, data=None, url_params=None):
+    s = Session()
+    req = Request(string.upper(method), url, headers=headers, data=data, params=url_params)
     prepped = req.prepare()
-    return ''
+    rsp = s.send(prepped)
+    return rsp.text
 
 
 def show_banner_pic_request(url):

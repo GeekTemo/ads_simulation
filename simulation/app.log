@@ -1,0 +1,12 @@
+Fri, 11 Mar 2016 16:48:29 connectionpool.py[line:207] INFO Starting new HTTP connection (1): ads.imopan.com
+Fri, 11 Mar 2016 16:48:29 connectionpool.py[line:387] DEBUG "POST /sec/getTableAd.bin HTTP/1.1" 200 None
+Fri, 11 Mar 2016 16:49:49 connectionpool.py[line:207] INFO Starting new HTTP connection (1): ads.imopan.com
+Fri, 11 Mar 2016 16:49:52 connectionpool.py[line:387] DEBUG "POST /sec/getTableAd.bin HTTP/1.1" 200 None
+Fri, 11 Mar 2016 16:50:31 connectionpool.py[line:207] INFO Starting new HTTP connection (1): ads.imopan.com
+Fri, 11 Mar 2016 16:50:31 connectionpool.py[line:387] DEBUG "POST /sec/getTableAd.bin HTTP/1.1" 200 None
+Fri, 11 Mar 2016 16:50:33 connectionpool.py[line:207] INFO Starting new HTTP connection (1): ads.imopan.com
+Fri, 11 Mar 2016 16:50:34 connectionpool.py[line:387] DEBUG "POST /sec/getTableAd.bin HTTP/1.1" 200 None
+Fri, 11 Mar 2016 16:50:36 connectionpool.py[line:207] INFO Starting new HTTP connection (1): ads.imopan.com
+Fri, 11 Mar 2016 16:50:36 connectionpool.py[line:387] DEBUG "POST /sec/getTableAd.bin HTTP/1.1" 200 None
+Fri, 11 Mar 2016 16:50:38 connectionpool.py[line:207] INFO Starting new HTTP connection (1): ads.imopan.com
+Fri, 11 Mar 2016 16:50:38 connectionpool.py[line:387] DEBUG "POST /sec/getTableAd.bin HTTP/1.1" 200 None

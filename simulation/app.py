@@ -6,6 +6,7 @@ import sys
 import string
 import urllib
 import logging
+from Queue import Queue
 from requests import Request, Session
 
 from simulation import config

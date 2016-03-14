@@ -2,8 +2,6 @@
 # -*- coding: utf-8 -*-
 # Created by gongxingfa on 16/3/14
 
-
-
 import sys
 import string
 import urllib
@@ -29,6 +27,8 @@ class AdsConstant:
     BannerAdsUrl = 'http://ads.imopan.com/sec/getBannerAd.bin'
     TableClickUrl = 'http://ads.imopan.com/sec/tableClick.bin'
     BannerClickUrl = 'http://ads.imopan.com/sec/bannerClick.bin'
+    TableClickType = '001'
+    BannerClickType = '002'
 
 
 class AdsMeta:
@@ -68,11 +68,11 @@ class AdsTaskProducer(Process):
                 time.sleep(2)
 
 
-class AdsSimulator(object):
+class AdsSimulator(Process):
     Nums = 1000
 
     def __init__(self, config):
-        # Process.__init__(self)
+        Process.__init__(self)
         self.config = config
         self.nums = [0 for i in range(AdsSimulator.Nums)]
         for i in range(int(AdsSimulator.Nums * self.config[AdsMeta.ClickPercent])):
@@ -80,6 +80,7 @@ class AdsSimulator(object):
         self.browser = Browser('chrome')
 
     def _show_pic(self, url):
+        logging.warn('Show Ads Pic:%s' % url)
         self.browser.visit(url)
 
     @staticmethod
@@ -89,12 +90,16 @@ class AdsSimulator(object):
             raw += '&' + key + '=' + str(value)
         return raw
 
+    @staticmethod
+    def _gen_s(ads_info):
+        return '56beb5f0e3d7274551b97c8f3ea9dfe3'
+
     def ads_click(self, url, ads_info):
-        ads_type = 001 if url == AdsConstant.TableClickUrl else 002
+        ads_type = AdsConstant.TableClickType if url == AdsConstant.TableClickUrl else AdsConstant.TableClickType
         params = {'idfa': ads_info[AdsMeta.Idfa], 'appId': ads_info['id'],
-                  'type': ads_type, 'productId': ads_info[AdsMeta.ProductId], 'sysVer': '9.2.1',
-                  'versoft': 'ios_banner_v1.0',
-                  'link': urllib.unquote(ads_info[AdsMeta.AdsLink]), 's': '56beb5f0e3d7274551b97c8f3ea9dfe3'}
+                  'type': ads_type, 'productId': ads_info[AdsMeta.ProductId], 'sysVer': ads_info[AdsMeta.SysVer],
+                  'versoft': ads_info[AdsMeta.Versoft],
+                  'link': urllib.unquote(ads_info[AdsMeta.AdsLink]), 's': self._gen_s(ads_info)}
         url += '?' + AdsSimulator._url_encode(params)[1:]
         self.browser.visit(url)
 
@@ -107,6 +112,7 @@ class AdsSimulator(object):
 
     @staticmethod
     def _ads_request(method, url, headers=None, data=None, url_params=None):
+        logging.warn('Ads Request:%s' % url)
         s = Session()
         req = Request(string.upper(method), url, headers=headers, data=data, params=url_params)
         prepped = req.prepare()
@@ -121,11 +127,15 @@ class AdsSimulator(object):
                 task_info = json.loads(
                     self._ads_request(ads_task[AdsMeta.Method], ads_task[AdsMeta.URL], data=ads_task[AdsMeta.Data]))[
                     'splashAd']
-                task_info[AdsMeta.ProductId] = ads_task[AdsMeta.Data][AdsMeta.ProductId]
                 self._show_pic(task_info[AdsMeta.ShowPicUrl])
                 if self._if_ads_click():
+                    task_info[AdsMeta.ProductId] = ads_task[AdsMeta.Data][AdsMeta.ProductId]
+                    task_info[AdsMeta.Idfa] = ads_task[AdsMeta.Data][AdsMeta.Idfa]
+                    task_info[AdsMeta.SysVer] = ads_task[AdsMeta.Data][AdsMeta.SysVer]
+                    task_info[AdsMeta.Versoft] = ads_task[AdsMeta.Data][AdsMeta.Versoft]
                     click_url = AdsConstant.TableClickUrl if ads_task[
-                                                                 AdsMeta.URL] == AdsConstant.TableAdsUrl else AdsConstant.BannerClickUrl
+                                                                 AdsMeta.URL] == AdsConstant.TableAdsUrl \
+                        else AdsConstant.BannerClickUrl
                     self.ads_click(click_url, task_info)
                     time.sleep(self.config[AdsMeta.PageStayTime])
             except Exception, e:
@@ -137,14 +147,14 @@ def run_ads_simulation(cf):
     ads_simulator = AdsSimulator(
         config={AdsMeta.ClickPercent: cf[AdsMeta.ClickPercent], AdsMeta.PageStayTime: cf[AdsMeta.PageStayTime]})
     ads_task_producer.start()
-    ads_simulator.run()
+    ads_simulator.start()
 
 
 if __name__ == '__main__':
-    # if len(sys.argv) <= 1:
-    #     logging.error('Useage "python ads_simulation config.json"')
-    #     sys.exit(1)
+    if len(sys.argv) <= 1:
+        logging.error('Useage "python ads_simulation config.json"')
+        sys.exit(1)
     logging.warn('Start running ads_simulation.......')
-    # cf = json.load(open(sys.argv[1], 'r'))
-    cf = json.load(open('config_template.json', 'r'))
+    cf = json.load(open(sys.argv[1], 'r'))
+    # cf = json.load(open('config_template.json', 'r'))
     run_ads_simulation(cf)

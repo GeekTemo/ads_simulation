@@ -1,4 +1,27 @@
 {
-  "click_percent": 0.5,
-  "page_stay_time": 2
+  "modle": "stand_alone",
+  "click_percent": 0.9,
+  "page_stay_time": 3,
+  "requests": [
+    {
+      "url": "http://ads.imopan.com/sec/getBannerAd.bin",
+      "method": "post",
+      "data": {
+        "mac": "02:00:00:00:00:00",
+        "idfa": "92C3BA6F-FA7C-4D59-87E1-44B4C8045DDA",
+        "sysVer": "9.2.1",
+        "productId": "17586",
+        "width": "414",
+        "height": "736",
+        "versoft": "ios_banner_v1.0",
+        "netChannel": "1",
+        "jailbroken": "false",
+        "device": "iPhone",
+        "imsi": "46001",
+        "MopBannerSize": "1",
+        "MopBannerMultiple": "3",
+        "s": "e9681c441c199d22664b21a1f1ea6c66"
+      }
+    }
+  ]
 }

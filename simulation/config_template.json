@@ -1,6 +1,6 @@
 {
   "modle": "stand_alone",
-  "click_percent": 0.9,
+  "click_percent": 0.5,
   "page_stay_time": 3,
   "requests": [
     {

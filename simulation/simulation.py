@@ -21,6 +21,10 @@ logging.basicConfig(level=logging.DEBUG,
 
 ads_tasks = Queue(1024)
 
+Verify_S = {
+
+}
+
 
 class SimulatorConstant:
     class Modle:
@@ -40,6 +44,7 @@ class AdsConstant:
 class AdsMeta:
     ClickPercent = 'click_percent'
     PageStayTime = 'page_stay_time'
+    Requests = 'requests'
     Method = 'method'
     URL = 'url'
     AdsObject = 'splashAd'
@@ -65,7 +70,7 @@ class AdsTaskProducer(Process):
     def run(self):
         modle = self.config[AdsMeta.Modle]
         if modle == SimulatorConstant.Modle.StandAlone:
-            reqs = self.config['requests']
+            reqs = self.config[AdsMeta.Requests]
             reqs_count = len(reqs)
             i = 0
             while 1:
@@ -102,16 +107,12 @@ class AdsSimulator(Process):
         return '56beb5f0e3d7274551b97c8f3ea9dfe3'
 
     def ads_click(self, url, ads_info):
-        ads_type = AdsConstant.TableClickType if url == AdsConstant.TableClickUrl else AdsConstant.TableClickType
+        ads_type = AdsConstant.TableClickType if url == AdsConstant.TableClickUrl else AdsConstant.BannerClickType
         params = {'idfa': ads_info[AdsMeta.Idfa], 'appId': ads_info['id'],
                   'type': ads_type, 'productId': ads_info[AdsMeta.ProductId], 'sysVer': ads_info[AdsMeta.SysVer],
                   'versoft': ads_info[AdsMeta.Versoft],
                   'link': urllib.unquote(ads_info[AdsMeta.AdsLink]), 's': self._gen_s(ads_info)}
         url += '?' + AdsSimulator._url_encode(params)
-        self.browser.visit(url)
-
-    def ads_redirect(self, url):
-        url = urllib.unquote(url)
         self.browser.visit(url)
 
     def _if_ads_click(self):

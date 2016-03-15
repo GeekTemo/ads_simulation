@@ -22,6 +22,23 @@
         "MopBannerMultiple": "3",
         "s": "e9681c441c199d22664b21a1f1ea6c66"
       }
+    },
+    {
+      "url": "http://ads.imopan.com/sec/getTableAd.bin",
+      "method": "post",
+      "data": {
+        "mac": "02:00:00:00:00:00",
+        "idfa": "92C3BA6F-FA7C-4D59-87E1-44B4C8045DDA",
+        "sysVer": "9.2.1",
+        "productId": "900",
+        "width": "414",
+        "height": "17586",
+        "versoft": "ios_banner_v1.0",
+        "netChannel": "1",
+        "jailbroken": "false",
+        "device": "iPhone",
+        "imsi": "46001"
+      }
     }
   ]
 }

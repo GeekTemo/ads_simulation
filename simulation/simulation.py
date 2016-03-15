@@ -22,6 +22,12 @@ logging.basicConfig(level=logging.DEBUG,
 ads_tasks = Queue(1024)
 
 
+class SimulatorConstant:
+    class Modle:
+        StandAlone = 'stand_alone'
+        Distributed = 'distributed'
+
+
 class AdsConstant:
     TableAdsUrl = 'http://ads.imopan.com/sec/getTableAd.bin'
     BannerAdsUrl = 'http://ads.imopan.com/sec/getBannerAd.bin'
@@ -36,6 +42,7 @@ class AdsMeta:
     PageStayTime = 'page_stay_time'
     Method = 'method'
     URL = 'url'
+    AdsObject = 'splashAd'
     ShowPicUrl = 'bannerPicUrl'
     Headers = 'headers'
     Data = 'data'
@@ -57,7 +64,7 @@ class AdsTaskProducer(Process):
 
     def run(self):
         modle = self.config[AdsMeta.Modle]
-        if modle == 'stand_alone':
+        if modle == SimulatorConstant.Modle.StandAlone:
             reqs = self.config['requests']
             reqs_count = len(reqs)
             i = 0
@@ -88,7 +95,7 @@ class AdsSimulator(Process):
         raw = ''
         for key, value in params.items():
             raw += '&' + key + '=' + str(value)
-        return raw
+        return raw[1:]
 
     @staticmethod
     def _gen_s(ads_info):
@@ -100,7 +107,7 @@ class AdsSimulator(Process):
                   'type': ads_type, 'productId': ads_info[AdsMeta.ProductId], 'sysVer': ads_info[AdsMeta.SysVer],
                   'versoft': ads_info[AdsMeta.Versoft],
                   'link': urllib.unquote(ads_info[AdsMeta.AdsLink]), 's': self._gen_s(ads_info)}
-        url += '?' + AdsSimulator._url_encode(params)[1:]
+        url += '?' + AdsSimulator._url_encode(params)
         self.browser.visit(url)
 
     def ads_redirect(self, url):
@@ -126,7 +133,7 @@ class AdsSimulator(Process):
             try:
                 task_info = json.loads(
                     self._ads_request(ads_task[AdsMeta.Method], ads_task[AdsMeta.URL], data=ads_task[AdsMeta.Data]))[
-                    'splashAd']
+                    AdsMeta.AdsObject]
                 self._show_pic(task_info[AdsMeta.ShowPicUrl])
                 if self._if_ads_click():
                     task_info[AdsMeta.ProductId] = ads_task[AdsMeta.Data][AdsMeta.ProductId]

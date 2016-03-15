@@ -518,3 +518,580 @@ Tue, 15 Mar 2016 15:07:11 remote_connection.py[line:409] DEBUG POST http://127.0
 Tue, 15 Mar 2016 15:07:11 remote_connection.py[line:502] DEBUG Finished Request
 Tue, 15 Mar 2016 15:07:11 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:54339/session/94dddeb1604db5c9d5c686920a4d670f/url {"url": "http://ads.imopan.com/sec/bannerClick.bin?versoft=ios_banner_v1.0&s=56beb5f0e3d7274551b97c8f3ea9dfe3&idfa=92C3BA6F-FA7C-4D59-87E1-44B4C8045DDA&appId=119&link=https://itunes.apple.com/cn/app/id469310248&sysVer=9.2.1&type=002&productId=17586", "sessionId": "94dddeb1604db5c9d5c686920a4d670f"}
 Tue, 15 Mar 2016 15:07:20 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:20:42 simulation.py[line:165] WARNING Start running ads_simulation.......
+Tue, 15 Mar 2016 16:20:43 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session {"desiredCapabilities": {"platform": "ANY", "browserName": "chrome", "version": "", "javascriptEnabled": true, "chromeOptions": {"args": [], "extensions": []}}}
+Tue, 15 Mar 2016 16:20:44 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:20:44 simulation.py[line:131] WARNING Start running ads simulation process: <AdsSimulator(AdsSimulator-2, started)>
+Tue, 15 Mar 2016 16:20:44 simulation.py[line:123] WARNING Ads Request:http://ads.imopan.com/sec/getBannerAd.bin
+Tue, 15 Mar 2016 16:20:44 connectionpool.py[line:207] INFO Starting new HTTP connection (1): ads.imopan.com
+Tue, 15 Mar 2016 16:20:44 connectionpool.py[line:387] DEBUG "POST /sec/getBannerAd.bin HTTP/1.1" 200 None
+Tue, 15 Mar 2016 16:20:44 simulation.py[line:95] WARNING Show Ads Pic:http://apk1.imopan.com/appsoft/cpa/imgs/201510/art_banner_640_100_102_20151026182905.jpg
+Tue, 15 Mar 2016 16:20:44 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://apk1.imopan.com/appsoft/cpa/imgs/201510/art_banner_640_100_102_20151026182905.jpg", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:20:45 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:20:46 simulation.py[line:123] WARNING Ads Request:http://ads.imopan.com/sec/getTableAd.bin
+Tue, 15 Mar 2016 16:20:46 connectionpool.py[line:207] INFO Starting new HTTP connection (1): ads.imopan.com
+Tue, 15 Mar 2016 16:20:46 connectionpool.py[line:387] DEBUG "POST /sec/getTableAd.bin HTTP/1.1" 200 None
+Tue, 15 Mar 2016 16:20:46 simulation.py[line:95] WARNING Show Ads Pic:http://apk1.imopan.com/appsoft/cpa/imgs/201509/art_86_20150908153526_resize_414_17586.jpg
+Tue, 15 Mar 2016 16:20:46 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://apk1.imopan.com/appsoft/cpa/imgs/201509/art_86_20150908153526_resize_414_17586.jpg", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:20:46 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:20:48 simulation.py[line:123] WARNING Ads Request:http://ads.imopan.com/sec/getBannerAd.bin
+Tue, 15 Mar 2016 16:20:48 connectionpool.py[line:207] INFO Starting new HTTP connection (1): ads.imopan.com
+Tue, 15 Mar 2016 16:20:48 connectionpool.py[line:387] DEBUG "POST /sec/getBannerAd.bin HTTP/1.1" 200 None
+Tue, 15 Mar 2016 16:20:48 simulation.py[line:95] WARNING Show Ads Pic:http://apk1.imopan.com/appsoft/cpa/imgs/201510/art_banner_640_100_101_20151026162201.jpg
+Tue, 15 Mar 2016 16:20:48 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://apk1.imopan.com/appsoft/cpa/imgs/201510/art_banner_640_100_101_20151026162201.jpg", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:20:48 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:20:48 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://ads.imopan.com/sec/bannerClick.bin?versoft=ios_banner_v1.0&s=56beb5f0e3d7274551b97c8f3ea9dfe3&idfa=92C3BA6F-FB7C-4D59-87E1-44B4C8045DDA&appId=101&link=http://itunes.apple.com/cn/app/id388089858?mt=8&sysVer=9.2.1&type=002&productId=17586", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:20:48 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:20:51 simulation.py[line:123] WARNING Ads Request:http://ads.imopan.com/sec/getTableAd.bin
+Tue, 15 Mar 2016 16:20:51 connectionpool.py[line:207] INFO Starting new HTTP connection (1): ads.imopan.com
+Tue, 15 Mar 2016 16:20:51 connectionpool.py[line:387] DEBUG "POST /sec/getTableAd.bin HTTP/1.1" 200 None
+Tue, 15 Mar 2016 16:20:51 simulation.py[line:95] WARNING Show Ads Pic:http://apk1.imopan.com/appsoft/cpa/imgs/201509/art_94_20150908100858_resize_414_17586.jpg
+Tue, 15 Mar 2016 16:20:51 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://apk1.imopan.com/appsoft/cpa/imgs/201509/art_94_20150908100858_resize_414_17586.jpg", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:20:51 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:20:51 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://ads.imopan.com/sec/tableClick.bin?versoft=ios_banner_v1.0&s=56beb5f0e3d7274551b97c8f3ea9dfe3&idfa=92C3BA6F-FC7C-4D59-87E1-44B4C8045DDA&appId=94&link=https://itunes.apple.com/cn/app/da-gua-wu-lin/id1018722423?mt=8&sysVer=9.2.1&type=001&productId=900", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:21:13 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:21:16 simulation.py[line:123] WARNING Ads Request:http://ads.imopan.com/sec/getBannerAd.bin
+Tue, 15 Mar 2016 16:21:16 connectionpool.py[line:207] INFO Starting new HTTP connection (1): ads.imopan.com
+Tue, 15 Mar 2016 16:21:16 connectionpool.py[line:387] DEBUG "POST /sec/getBannerAd.bin HTTP/1.1" 200 None
+Tue, 15 Mar 2016 16:21:16 simulation.py[line:95] WARNING Show Ads Pic:http://apk1.imopan.com/appsoft/cpa/imgs/201511/art_banner_640_100_105_20151110111619.jpg
+Tue, 15 Mar 2016 16:21:16 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://apk1.imopan.com/appsoft/cpa/imgs/201511/art_banner_640_100_105_20151110111619.jpg", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:21:16 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:21:16 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://ads.imopan.com/sec/bannerClick.bin?versoft=ios_banner_v1.0&s=56beb5f0e3d7274551b97c8f3ea9dfe3&idfa=92C3BA6F-FB7C-4D59-87E1-44B4C8045DDA&appId=105&link=http://www.adsensor.org/track/6af6e202/9B568F906F2EEB76EA00E900C69E38FF?campaignId=59Nq_6TXIoJm&sysVer=9.2.1&type=002&productId=17586", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:21:22 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:21:25 simulation.py[line:123] WARNING Ads Request:http://ads.imopan.com/sec/getTableAd.bin
+Tue, 15 Mar 2016 16:21:25 connectionpool.py[line:207] INFO Starting new HTTP connection (1): ads.imopan.com
+Tue, 15 Mar 2016 16:21:25 connectionpool.py[line:387] DEBUG "POST /sec/getTableAd.bin HTTP/1.1" 200 None
+Tue, 15 Mar 2016 16:21:25 simulation.py[line:95] WARNING Show Ads Pic:http://apk1.imopan.com/appsoft/cpa/imgs/201512/art_110_20151202131238_resize_414_17586.jpg
+Tue, 15 Mar 2016 16:21:25 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://apk1.imopan.com/appsoft/cpa/imgs/201512/art_110_20151202131238_resize_414_17586.jpg", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:21:26 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:21:26 simulation.py[line:123] WARNING Ads Request:http://ads.imopan.com/sec/getBannerAd.bin
+Tue, 15 Mar 2016 16:21:26 connectionpool.py[line:207] INFO Starting new HTTP connection (1): ads.imopan.com
+Tue, 15 Mar 2016 16:21:26 connectionpool.py[line:387] DEBUG "POST /sec/getBannerAd.bin HTTP/1.1" 200 None
+Tue, 15 Mar 2016 16:21:26 simulation.py[line:95] WARNING Show Ads Pic:http://apk1.imopan.com/appsoft/cpa/imgs/201512/art_banner_640_100_111_20151202163905.jpg
+Tue, 15 Mar 2016 16:21:26 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://apk1.imopan.com/appsoft/cpa/imgs/201512/art_banner_640_100_111_20151202163905.jpg", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:21:26 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:21:26 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://ads.imopan.com/sec/bannerClick.bin?versoft=ios_banner_v1.0&s=56beb5f0e3d7274551b97c8f3ea9dfe3&idfa=92C3BA6F-FB7C-4D59-87E1-44B4C8045DDA&appId=111&link=https://itunes.apple.com/cn/app/heng-sao-qian-jun-tang-guo/id997636530?l=zh&ls=1&mt=8&sysVer=9.2.1&type=002&productId=17586", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:21:33 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:21:36 simulation.py[line:123] WARNING Ads Request:http://ads.imopan.com/sec/getTableAd.bin
+Tue, 15 Mar 2016 16:21:36 connectionpool.py[line:207] INFO Starting new HTTP connection (1): ads.imopan.com
+Tue, 15 Mar 2016 16:21:36 connectionpool.py[line:387] DEBUG "POST /sec/getTableAd.bin HTTP/1.1" 200 None
+Tue, 15 Mar 2016 16:21:36 simulation.py[line:95] WARNING Show Ads Pic:http://apk1.imopan.com/appsoft/cpa/imgs/201601/art_117_20160127150656_resize_414_17586.jpg
+Tue, 15 Mar 2016 16:21:36 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://apk1.imopan.com/appsoft/cpa/imgs/201601/art_117_20160127150656_resize_414_17586.jpg", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:21:36 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:21:36 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://ads.imopan.com/sec/tableClick.bin?versoft=ios_banner_v1.0&s=56beb5f0e3d7274551b97c8f3ea9dfe3&idfa=92C3BA6F-FC7C-4D59-87E1-44B4C8045DDA&appId=117&link=https://itunes.apple.com/cn/app/id469310248&sysVer=9.2.1&type=001&productId=900", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:21:39 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:21:42 simulation.py[line:123] WARNING Ads Request:http://ads.imopan.com/sec/getBannerAd.bin
+Tue, 15 Mar 2016 16:21:42 connectionpool.py[line:207] INFO Starting new HTTP connection (1): ads.imopan.com
+Tue, 15 Mar 2016 16:21:42 connectionpool.py[line:387] DEBUG "POST /sec/getBannerAd.bin HTTP/1.1" 200 None
+Tue, 15 Mar 2016 16:21:42 simulation.py[line:95] WARNING Show Ads Pic:http://apk1.imopan.com/appsoft/cpa/imgs/201601/art_banner_640_100_119_20160127151408.jpg
+Tue, 15 Mar 2016 16:21:42 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://apk1.imopan.com/appsoft/cpa/imgs/201601/art_banner_640_100_119_20160127151408.jpg", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:21:42 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:21:42 simulation.py[line:123] WARNING Ads Request:http://ads.imopan.com/sec/getTableAd.bin
+Tue, 15 Mar 2016 16:21:42 connectionpool.py[line:207] INFO Starting new HTTP connection (1): ads.imopan.com
+Tue, 15 Mar 2016 16:21:42 connectionpool.py[line:387] DEBUG "POST /sec/getTableAd.bin HTTP/1.1" 200 None
+Tue, 15 Mar 2016 16:21:42 simulation.py[line:95] WARNING Show Ads Pic:http://apk1.imopan.com/appsoft/cpa/imgs/201602/art_121_20160217165641_resize_414_17586.jpg
+Tue, 15 Mar 2016 16:21:42 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://apk1.imopan.com/appsoft/cpa/imgs/201602/art_121_20160217165641_resize_414_17586.jpg", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:21:43 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:21:43 simulation.py[line:123] WARNING Ads Request:http://ads.imopan.com/sec/getBannerAd.bin
+Tue, 15 Mar 2016 16:21:43 connectionpool.py[line:207] INFO Starting new HTTP connection (1): ads.imopan.com
+Tue, 15 Mar 2016 16:21:43 connectionpool.py[line:387] DEBUG "POST /sec/getBannerAd.bin HTTP/1.1" 200 None
+Tue, 15 Mar 2016 16:21:43 simulation.py[line:95] WARNING Show Ads Pic:http://apk1.imopan.com/appsoft/cpa/imgs/201602/art_banner_640_100_124_20160217170630.jpg
+Tue, 15 Mar 2016 16:21:43 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://apk1.imopan.com/appsoft/cpa/imgs/201602/art_banner_640_100_124_20160217170630.jpg", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:21:43 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:21:43 simulation.py[line:123] WARNING Ads Request:http://ads.imopan.com/sec/getTableAd.bin
+Tue, 15 Mar 2016 16:21:43 connectionpool.py[line:207] INFO Starting new HTTP connection (1): ads.imopan.com
+Tue, 15 Mar 2016 16:21:43 connectionpool.py[line:387] DEBUG "POST /sec/getTableAd.bin HTTP/1.1" 200 None
+Tue, 15 Mar 2016 16:21:43 simulation.py[line:150] ERROR Ads url:http://ads.imopan.com/sec/getTableAd.bin request error..
+Tue, 15 Mar 2016 16:21:43 simulation.py[line:123] WARNING Ads Request:http://ads.imopan.com/sec/getBannerAd.bin
+Tue, 15 Mar 2016 16:21:43 connectionpool.py[line:207] INFO Starting new HTTP connection (1): ads.imopan.com
+Tue, 15 Mar 2016 16:21:43 connectionpool.py[line:387] DEBUG "POST /sec/getBannerAd.bin HTTP/1.1" 200 None
+Tue, 15 Mar 2016 16:21:43 simulation.py[line:95] WARNING Show Ads Pic:http://apk1.imopan.com/appsoft/cpa/imgs/201510/art_banner_640_100_102_20151026182905.jpg
+Tue, 15 Mar 2016 16:21:43 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://apk1.imopan.com/appsoft/cpa/imgs/201510/art_banner_640_100_102_20151026182905.jpg", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:21:43 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:21:43 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://ads.imopan.com/sec/bannerClick.bin?versoft=ios_banner_v1.0&s=56beb5f0e3d7274551b97c8f3ea9dfe3&idfa=92C3BA6F-FB7C-4D59-87E1-44B4C8045DDA&appId=102&link=https://itunes.apple.com/cn/app/yu-yu-jian-kang-liang-xing/id952017570?mt=8&sysVer=9.2.1&type=002&productId=17586", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:21:45 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:21:48 simulation.py[line:123] WARNING Ads Request:http://ads.imopan.com/sec/getTableAd.bin
+Tue, 15 Mar 2016 16:21:48 connectionpool.py[line:207] INFO Starting new HTTP connection (1): ads.imopan.com
+Tue, 15 Mar 2016 16:21:49 connectionpool.py[line:387] DEBUG "POST /sec/getTableAd.bin HTTP/1.1" 200 None
+Tue, 15 Mar 2016 16:21:49 simulation.py[line:95] WARNING Show Ads Pic:http://apk1.imopan.com/appsoft/cpa/imgs/201509/art_86_20150908153526_resize_414_17586.jpg
+Tue, 15 Mar 2016 16:21:49 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://apk1.imopan.com/appsoft/cpa/imgs/201509/art_86_20150908153526_resize_414_17586.jpg", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:21:49 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:21:49 simulation.py[line:123] WARNING Ads Request:http://ads.imopan.com/sec/getBannerAd.bin
+Tue, 15 Mar 2016 16:21:49 connectionpool.py[line:207] INFO Starting new HTTP connection (1): ads.imopan.com
+Tue, 15 Mar 2016 16:21:49 connectionpool.py[line:387] DEBUG "POST /sec/getBannerAd.bin HTTP/1.1" 200 None
+Tue, 15 Mar 2016 16:21:49 simulation.py[line:95] WARNING Show Ads Pic:http://apk1.imopan.com/appsoft/cpa/imgs/201510/art_banner_640_100_101_20151026162201.jpg
+Tue, 15 Mar 2016 16:21:49 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://apk1.imopan.com/appsoft/cpa/imgs/201510/art_banner_640_100_101_20151026162201.jpg", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:21:49 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:21:49 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://ads.imopan.com/sec/bannerClick.bin?versoft=ios_banner_v1.0&s=56beb5f0e3d7274551b97c8f3ea9dfe3&idfa=92C3BA6F-FB7C-4D59-87E1-44B4C8045DDA&appId=101&link=http://itunes.apple.com/cn/app/id388089858?mt=8&sysVer=9.2.1&type=002&productId=17586", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:21:49 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:21:52 simulation.py[line:123] WARNING Ads Request:http://ads.imopan.com/sec/getTableAd.bin
+Tue, 15 Mar 2016 16:21:52 connectionpool.py[line:207] INFO Starting new HTTP connection (1): ads.imopan.com
+Tue, 15 Mar 2016 16:21:52 connectionpool.py[line:387] DEBUG "POST /sec/getTableAd.bin HTTP/1.1" 200 None
+Tue, 15 Mar 2016 16:21:52 simulation.py[line:95] WARNING Show Ads Pic:http://apk1.imopan.com/appsoft/cpa/imgs/201509/art_94_20150908100858_resize_414_17586.jpg
+Tue, 15 Mar 2016 16:21:52 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://apk1.imopan.com/appsoft/cpa/imgs/201509/art_94_20150908100858_resize_414_17586.jpg", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:21:52 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:21:52 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://ads.imopan.com/sec/tableClick.bin?versoft=ios_banner_v1.0&s=56beb5f0e3d7274551b97c8f3ea9dfe3&idfa=92C3BA6F-FC7C-4D59-87E1-44B4C8045DDA&appId=94&link=https://itunes.apple.com/cn/app/da-gua-wu-lin/id1018722423?mt=8&sysVer=9.2.1&type=001&productId=900", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:21:53 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:21:56 simulation.py[line:123] WARNING Ads Request:http://ads.imopan.com/sec/getBannerAd.bin
+Tue, 15 Mar 2016 16:21:56 connectionpool.py[line:207] INFO Starting new HTTP connection (1): ads.imopan.com
+Tue, 15 Mar 2016 16:21:56 connectionpool.py[line:387] DEBUG "POST /sec/getBannerAd.bin HTTP/1.1" 200 None
+Tue, 15 Mar 2016 16:21:56 simulation.py[line:95] WARNING Show Ads Pic:http://apk1.imopan.com/appsoft/cpa/imgs/201511/art_banner_640_100_105_20151110111619.jpg
+Tue, 15 Mar 2016 16:21:56 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://apk1.imopan.com/appsoft/cpa/imgs/201511/art_banner_640_100_105_20151110111619.jpg", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:21:56 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:21:56 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://ads.imopan.com/sec/bannerClick.bin?versoft=ios_banner_v1.0&s=56beb5f0e3d7274551b97c8f3ea9dfe3&idfa=92C3BA6F-FB7C-4D59-87E1-44B4C8045DDA&appId=105&link=http://www.adsensor.org/track/6af6e202/9B568F906F2EEB76EA00E900C69E38FF?campaignId=59Nq_6TXIoJm&sysVer=9.2.1&type=002&productId=17586", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:21:58 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:22:01 simulation.py[line:123] WARNING Ads Request:http://ads.imopan.com/sec/getTableAd.bin
+Tue, 15 Mar 2016 16:22:01 connectionpool.py[line:207] INFO Starting new HTTP connection (1): ads.imopan.com
+Tue, 15 Mar 2016 16:22:01 connectionpool.py[line:387] DEBUG "POST /sec/getTableAd.bin HTTP/1.1" 200 None
+Tue, 15 Mar 2016 16:22:01 simulation.py[line:95] WARNING Show Ads Pic:http://apk1.imopan.com/appsoft/cpa/imgs/201512/art_110_20151202131238_resize_414_17586.jpg
+Tue, 15 Mar 2016 16:22:01 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://apk1.imopan.com/appsoft/cpa/imgs/201512/art_110_20151202131238_resize_414_17586.jpg", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:22:01 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:22:01 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://ads.imopan.com/sec/tableClick.bin?versoft=ios_banner_v1.0&s=56beb5f0e3d7274551b97c8f3ea9dfe3&idfa=92C3BA6F-FC7C-4D59-87E1-44B4C8045DDA&appId=110&link=https://itunes.apple.com/cn/app/heng-sao-qian-jun-tang-guo/id997636530?l=zh&ls=1&mt=8&sysVer=9.2.1&type=001&productId=900", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:22:03 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:22:06 simulation.py[line:123] WARNING Ads Request:http://ads.imopan.com/sec/getBannerAd.bin
+Tue, 15 Mar 2016 16:22:06 connectionpool.py[line:207] INFO Starting new HTTP connection (1): ads.imopan.com
+Tue, 15 Mar 2016 16:22:06 connectionpool.py[line:387] DEBUG "POST /sec/getBannerAd.bin HTTP/1.1" 200 None
+Tue, 15 Mar 2016 16:22:06 simulation.py[line:95] WARNING Show Ads Pic:http://apk1.imopan.com/appsoft/cpa/imgs/201512/art_banner_640_100_111_20151202163905.jpg
+Tue, 15 Mar 2016 16:22:06 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://apk1.imopan.com/appsoft/cpa/imgs/201512/art_banner_640_100_111_20151202163905.jpg", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:22:06 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:22:06 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://ads.imopan.com/sec/bannerClick.bin?versoft=ios_banner_v1.0&s=56beb5f0e3d7274551b97c8f3ea9dfe3&idfa=92C3BA6F-FB7C-4D59-87E1-44B4C8045DDA&appId=111&link=https://itunes.apple.com/cn/app/heng-sao-qian-jun-tang-guo/id997636530?l=zh&ls=1&mt=8&sysVer=9.2.1&type=002&productId=17586", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:22:09 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:22:12 simulation.py[line:123] WARNING Ads Request:http://ads.imopan.com/sec/getTableAd.bin
+Tue, 15 Mar 2016 16:22:12 connectionpool.py[line:207] INFO Starting new HTTP connection (1): ads.imopan.com
+Tue, 15 Mar 2016 16:22:13 connectionpool.py[line:387] DEBUG "POST /sec/getTableAd.bin HTTP/1.1" 200 None
+Tue, 15 Mar 2016 16:22:13 simulation.py[line:95] WARNING Show Ads Pic:http://apk1.imopan.com/appsoft/cpa/imgs/201601/art_117_20160127150656_resize_414_17586.jpg
+Tue, 15 Mar 2016 16:22:13 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://apk1.imopan.com/appsoft/cpa/imgs/201601/art_117_20160127150656_resize_414_17586.jpg", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:22:13 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:22:13 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://ads.imopan.com/sec/tableClick.bin?versoft=ios_banner_v1.0&s=56beb5f0e3d7274551b97c8f3ea9dfe3&idfa=92C3BA6F-FC7C-4D59-87E1-44B4C8045DDA&appId=117&link=https://itunes.apple.com/cn/app/id469310248&sysVer=9.2.1&type=001&productId=900", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:22:14 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:22:17 simulation.py[line:123] WARNING Ads Request:http://ads.imopan.com/sec/getBannerAd.bin
+Tue, 15 Mar 2016 16:22:17 connectionpool.py[line:207] INFO Starting new HTTP connection (1): ads.imopan.com
+Tue, 15 Mar 2016 16:22:17 connectionpool.py[line:387] DEBUG "POST /sec/getBannerAd.bin HTTP/1.1" 200 None
+Tue, 15 Mar 2016 16:22:17 simulation.py[line:95] WARNING Show Ads Pic:http://apk1.imopan.com/appsoft/cpa/imgs/201601/art_banner_640_100_119_20160127151408.jpg
+Tue, 15 Mar 2016 16:22:17 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://apk1.imopan.com/appsoft/cpa/imgs/201601/art_banner_640_100_119_20160127151408.jpg", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:22:17 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:22:17 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://ads.imopan.com/sec/bannerClick.bin?versoft=ios_banner_v1.0&s=56beb5f0e3d7274551b97c8f3ea9dfe3&idfa=92C3BA6F-FB7C-4D59-87E1-44B4C8045DDA&appId=119&link=https://itunes.apple.com/cn/app/id469310248&sysVer=9.2.1&type=002&productId=17586", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:22:18 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:22:21 simulation.py[line:123] WARNING Ads Request:http://ads.imopan.com/sec/getTableAd.bin
+Tue, 15 Mar 2016 16:22:21 connectionpool.py[line:207] INFO Starting new HTTP connection (1): ads.imopan.com
+Tue, 15 Mar 2016 16:22:21 connectionpool.py[line:387] DEBUG "POST /sec/getTableAd.bin HTTP/1.1" 200 None
+Tue, 15 Mar 2016 16:22:21 simulation.py[line:95] WARNING Show Ads Pic:http://apk1.imopan.com/appsoft/cpa/imgs/201602/art_121_20160217165641_resize_414_17586.jpg
+Tue, 15 Mar 2016 16:22:21 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://apk1.imopan.com/appsoft/cpa/imgs/201602/art_121_20160217165641_resize_414_17586.jpg", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:22:21 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:22:21 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://ads.imopan.com/sec/tableClick.bin?versoft=ios_banner_v1.0&s=56beb5f0e3d7274551b97c8f3ea9dfe3&idfa=92C3BA6F-FC7C-4D59-87E1-44B4C8045DDA&appId=121&link=https://itunes.apple.com/us/app/uber/id368677368?mt=8&ct=Vpon&sysVer=9.2.1&type=001&productId=900", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:23:39 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:23:42 simulation.py[line:123] WARNING Ads Request:http://ads.imopan.com/sec/getBannerAd.bin
+Tue, 15 Mar 2016 16:23:42 connectionpool.py[line:207] INFO Starting new HTTP connection (1): ads.imopan.com
+Tue, 15 Mar 2016 16:23:42 connectionpool.py[line:387] DEBUG "POST /sec/getBannerAd.bin HTTP/1.1" 200 None
+Tue, 15 Mar 2016 16:23:42 simulation.py[line:95] WARNING Show Ads Pic:http://apk1.imopan.com/appsoft/cpa/imgs/201602/art_banner_640_100_124_20160217170630.jpg
+Tue, 15 Mar 2016 16:23:42 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://apk1.imopan.com/appsoft/cpa/imgs/201602/art_banner_640_100_124_20160217170630.jpg", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:23:42 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:23:42 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://ads.imopan.com/sec/bannerClick.bin?versoft=ios_banner_v1.0&s=56beb5f0e3d7274551b97c8f3ea9dfe3&idfa=92C3BA6F-FB7C-4D59-87E1-44B4C8045DDA&appId=124&link=https://itunes.apple.com/us/app/uber/id368677368?mt=8&ct=Vpon&sysVer=9.2.1&type=002&productId=17586", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:24:59 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:25:02 simulation.py[line:123] WARNING Ads Request:http://ads.imopan.com/sec/getTableAd.bin
+Tue, 15 Mar 2016 16:25:02 connectionpool.py[line:207] INFO Starting new HTTP connection (1): ads.imopan.com
+Tue, 15 Mar 2016 16:25:02 connectionpool.py[line:387] DEBUG "POST /sec/getTableAd.bin HTTP/1.1" 200 None
+Tue, 15 Mar 2016 16:25:02 simulation.py[line:95] WARNING Show Ads Pic:http://apk1.imopan.com/appsoft/cpa/imgs/201509/art_86_20150908153526_resize_414_17586.jpg
+Tue, 15 Mar 2016 16:25:02 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://apk1.imopan.com/appsoft/cpa/imgs/201509/art_86_20150908153526_resize_414_17586.jpg", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:25:02 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:25:02 simulation.py[line:123] WARNING Ads Request:http://ads.imopan.com/sec/getBannerAd.bin
+Tue, 15 Mar 2016 16:25:02 connectionpool.py[line:207] INFO Starting new HTTP connection (1): ads.imopan.com
+Tue, 15 Mar 2016 16:25:02 connectionpool.py[line:387] DEBUG "POST /sec/getBannerAd.bin HTTP/1.1" 200 None
+Tue, 15 Mar 2016 16:25:02 simulation.py[line:95] WARNING Show Ads Pic:http://apk1.imopan.com/appsoft/cpa/imgs/201510/art_banner_640_100_102_20151026182905.jpg
+Tue, 15 Mar 2016 16:25:02 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://apk1.imopan.com/appsoft/cpa/imgs/201510/art_banner_640_100_102_20151026182905.jpg", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:25:02 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:25:02 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://ads.imopan.com/sec/bannerClick.bin?versoft=ios_banner_v1.0&s=56beb5f0e3d7274551b97c8f3ea9dfe3&idfa=92C3BA6F-FB7C-4D59-87E1-44B4C8045DDA&appId=102&link=https://itunes.apple.com/cn/app/yu-yu-jian-kang-liang-xing/id952017570?mt=8&sysVer=9.2.1&type=002&productId=17586", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:25:04 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:25:07 simulation.py[line:123] WARNING Ads Request:http://ads.imopan.com/sec/getTableAd.bin
+Tue, 15 Mar 2016 16:25:07 connectionpool.py[line:207] INFO Starting new HTTP connection (1): ads.imopan.com
+Tue, 15 Mar 2016 16:25:07 connectionpool.py[line:387] DEBUG "POST /sec/getTableAd.bin HTTP/1.1" 200 None
+Tue, 15 Mar 2016 16:25:07 simulation.py[line:95] WARNING Show Ads Pic:http://apk1.imopan.com/appsoft/cpa/imgs/201509/art_94_20150908100858_resize_414_17586.jpg
+Tue, 15 Mar 2016 16:25:07 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://apk1.imopan.com/appsoft/cpa/imgs/201509/art_94_20150908100858_resize_414_17586.jpg", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:25:07 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:25:07 simulation.py[line:123] WARNING Ads Request:http://ads.imopan.com/sec/getBannerAd.bin
+Tue, 15 Mar 2016 16:25:07 connectionpool.py[line:207] INFO Starting new HTTP connection (1): ads.imopan.com
+Tue, 15 Mar 2016 16:25:07 connectionpool.py[line:387] DEBUG "POST /sec/getBannerAd.bin HTTP/1.1" 200 None
+Tue, 15 Mar 2016 16:25:07 simulation.py[line:95] WARNING Show Ads Pic:http://apk1.imopan.com/appsoft/cpa/imgs/201510/art_banner_640_100_101_20151026162201.jpg
+Tue, 15 Mar 2016 16:25:07 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://apk1.imopan.com/appsoft/cpa/imgs/201510/art_banner_640_100_101_20151026162201.jpg", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:25:07 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:25:07 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://ads.imopan.com/sec/bannerClick.bin?versoft=ios_banner_v1.0&s=56beb5f0e3d7274551b97c8f3ea9dfe3&idfa=92C3BA6F-FB7C-4D59-87E1-44B4C8045DDA&appId=101&link=http://itunes.apple.com/cn/app/id388089858?mt=8&sysVer=9.2.1&type=002&productId=17586", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:25:10 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:25:13 simulation.py[line:123] WARNING Ads Request:http://ads.imopan.com/sec/getTableAd.bin
+Tue, 15 Mar 2016 16:25:13 connectionpool.py[line:207] INFO Starting new HTTP connection (1): ads.imopan.com
+Tue, 15 Mar 2016 16:25:14 connectionpool.py[line:387] DEBUG "POST /sec/getTableAd.bin HTTP/1.1" 200 None
+Tue, 15 Mar 2016 16:25:14 simulation.py[line:95] WARNING Show Ads Pic:http://apk1.imopan.com/appsoft/cpa/imgs/201512/art_110_20151202131238_resize_414_17586.jpg
+Tue, 15 Mar 2016 16:25:14 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://apk1.imopan.com/appsoft/cpa/imgs/201512/art_110_20151202131238_resize_414_17586.jpg", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:25:14 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:25:14 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://ads.imopan.com/sec/tableClick.bin?versoft=ios_banner_v1.0&s=56beb5f0e3d7274551b97c8f3ea9dfe3&idfa=92C3BA6F-FC7C-4D59-87E1-44B4C8045DDA&appId=110&link=https://itunes.apple.com/cn/app/heng-sao-qian-jun-tang-guo/id997636530?l=zh&ls=1&mt=8&sysVer=9.2.1&type=001&productId=900", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:25:17 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:25:20 simulation.py[line:123] WARNING Ads Request:http://ads.imopan.com/sec/getBannerAd.bin
+Tue, 15 Mar 2016 16:25:20 connectionpool.py[line:207] INFO Starting new HTTP connection (1): ads.imopan.com
+Tue, 15 Mar 2016 16:25:21 connectionpool.py[line:387] DEBUG "POST /sec/getBannerAd.bin HTTP/1.1" 200 None
+Tue, 15 Mar 2016 16:25:21 simulation.py[line:95] WARNING Show Ads Pic:http://apk1.imopan.com/appsoft/cpa/imgs/201511/art_banner_640_100_105_20151110111619.jpg
+Tue, 15 Mar 2016 16:25:21 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://apk1.imopan.com/appsoft/cpa/imgs/201511/art_banner_640_100_105_20151110111619.jpg", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:25:21 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:25:21 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://ads.imopan.com/sec/bannerClick.bin?versoft=ios_banner_v1.0&s=56beb5f0e3d7274551b97c8f3ea9dfe3&idfa=92C3BA6F-FB7C-4D59-87E1-44B4C8045DDA&appId=105&link=http://www.adsensor.org/track/6af6e202/9B568F906F2EEB76EA00E900C69E38FF?campaignId=59Nq_6TXIoJm&sysVer=9.2.1&type=002&productId=17586", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:25:26 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:25:29 simulation.py[line:123] WARNING Ads Request:http://ads.imopan.com/sec/getTableAd.bin
+Tue, 15 Mar 2016 16:25:29 connectionpool.py[line:207] INFO Starting new HTTP connection (1): ads.imopan.com
+Tue, 15 Mar 2016 16:25:29 connectionpool.py[line:387] DEBUG "POST /sec/getTableAd.bin HTTP/1.1" 200 None
+Tue, 15 Mar 2016 16:25:29 simulation.py[line:95] WARNING Show Ads Pic:http://apk1.imopan.com/appsoft/cpa/imgs/201601/art_117_20160127150656_resize_414_17586.jpg
+Tue, 15 Mar 2016 16:25:29 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://apk1.imopan.com/appsoft/cpa/imgs/201601/art_117_20160127150656_resize_414_17586.jpg", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:25:29 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:25:29 simulation.py[line:123] WARNING Ads Request:http://ads.imopan.com/sec/getBannerAd.bin
+Tue, 15 Mar 2016 16:25:29 connectionpool.py[line:207] INFO Starting new HTTP connection (1): ads.imopan.com
+Tue, 15 Mar 2016 16:25:29 connectionpool.py[line:387] DEBUG "POST /sec/getBannerAd.bin HTTP/1.1" 200 None
+Tue, 15 Mar 2016 16:25:29 simulation.py[line:95] WARNING Show Ads Pic:http://apk1.imopan.com/appsoft/cpa/imgs/201512/art_banner_640_100_111_20151202163905.jpg
+Tue, 15 Mar 2016 16:25:29 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://apk1.imopan.com/appsoft/cpa/imgs/201512/art_banner_640_100_111_20151202163905.jpg", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:25:29 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:25:29 simulation.py[line:123] WARNING Ads Request:http://ads.imopan.com/sec/getTableAd.bin
+Tue, 15 Mar 2016 16:25:29 connectionpool.py[line:207] INFO Starting new HTTP connection (1): ads.imopan.com
+Tue, 15 Mar 2016 16:25:29 connectionpool.py[line:387] DEBUG "POST /sec/getTableAd.bin HTTP/1.1" 200 None
+Tue, 15 Mar 2016 16:25:29 simulation.py[line:150] ERROR Ads url:http://ads.imopan.com/sec/getTableAd.bin request error..
+Tue, 15 Mar 2016 16:25:29 simulation.py[line:123] WARNING Ads Request:http://ads.imopan.com/sec/getBannerAd.bin
+Tue, 15 Mar 2016 16:25:29 connectionpool.py[line:207] INFO Starting new HTTP connection (1): ads.imopan.com
+Tue, 15 Mar 2016 16:25:30 connectionpool.py[line:387] DEBUG "POST /sec/getBannerAd.bin HTTP/1.1" 200 None
+Tue, 15 Mar 2016 16:25:30 simulation.py[line:95] WARNING Show Ads Pic:http://apk1.imopan.com/appsoft/cpa/imgs/201601/art_banner_640_100_119_20160127151408.jpg
+Tue, 15 Mar 2016 16:25:30 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://apk1.imopan.com/appsoft/cpa/imgs/201601/art_banner_640_100_119_20160127151408.jpg", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:25:30 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:25:30 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://ads.imopan.com/sec/bannerClick.bin?versoft=ios_banner_v1.0&s=56beb5f0e3d7274551b97c8f3ea9dfe3&idfa=92C3BA6F-FB7C-4D59-87E1-44B4C8045DDA&appId=119&link=https://itunes.apple.com/cn/app/id469310248&sysVer=9.2.1&type=002&productId=17586", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:25:35 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:25:38 simulation.py[line:123] WARNING Ads Request:http://ads.imopan.com/sec/getTableAd.bin
+Tue, 15 Mar 2016 16:25:38 connectionpool.py[line:207] INFO Starting new HTTP connection (1): ads.imopan.com
+Tue, 15 Mar 2016 16:25:38 connectionpool.py[line:387] DEBUG "POST /sec/getTableAd.bin HTTP/1.1" 200 None
+Tue, 15 Mar 2016 16:25:38 simulation.py[line:95] WARNING Show Ads Pic:http://apk1.imopan.com/appsoft/cpa/imgs/201602/art_121_20160217165641_resize_414_17586.jpg
+Tue, 15 Mar 2016 16:25:38 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://apk1.imopan.com/appsoft/cpa/imgs/201602/art_121_20160217165641_resize_414_17586.jpg", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:25:38 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:25:38 simulation.py[line:123] WARNING Ads Request:http://ads.imopan.com/sec/getBannerAd.bin
+Tue, 15 Mar 2016 16:25:38 connectionpool.py[line:207] INFO Starting new HTTP connection (1): ads.imopan.com
+Tue, 15 Mar 2016 16:25:38 connectionpool.py[line:387] DEBUG "POST /sec/getBannerAd.bin HTTP/1.1" 200 None
+Tue, 15 Mar 2016 16:25:38 simulation.py[line:95] WARNING Show Ads Pic:http://apk1.imopan.com/appsoft/cpa/imgs/201602/art_banner_640_100_124_20160217170630.jpg
+Tue, 15 Mar 2016 16:25:38 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://apk1.imopan.com/appsoft/cpa/imgs/201602/art_banner_640_100_124_20160217170630.jpg", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:25:38 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:25:38 simulation.py[line:123] WARNING Ads Request:http://ads.imopan.com/sec/getTableAd.bin
+Tue, 15 Mar 2016 16:25:38 connectionpool.py[line:207] INFO Starting new HTTP connection (1): ads.imopan.com
+Tue, 15 Mar 2016 16:25:39 connectionpool.py[line:387] DEBUG "POST /sec/getTableAd.bin HTTP/1.1" 200 None
+Tue, 15 Mar 2016 16:25:39 simulation.py[line:150] ERROR Ads url:http://ads.imopan.com/sec/getTableAd.bin request error..
+Tue, 15 Mar 2016 16:25:39 simulation.py[line:123] WARNING Ads Request:http://ads.imopan.com/sec/getBannerAd.bin
+Tue, 15 Mar 2016 16:25:39 connectionpool.py[line:207] INFO Starting new HTTP connection (1): ads.imopan.com
+Tue, 15 Mar 2016 16:25:39 connectionpool.py[line:387] DEBUG "POST /sec/getBannerAd.bin HTTP/1.1" 200 None
+Tue, 15 Mar 2016 16:25:39 simulation.py[line:95] WARNING Show Ads Pic:http://apk1.imopan.com/appsoft/cpa/imgs/201510/art_banner_640_100_102_20151026182905.jpg
+Tue, 15 Mar 2016 16:25:39 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://apk1.imopan.com/appsoft/cpa/imgs/201510/art_banner_640_100_102_20151026182905.jpg", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:25:39 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:25:39 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://ads.imopan.com/sec/bannerClick.bin?versoft=ios_banner_v1.0&s=56beb5f0e3d7274551b97c8f3ea9dfe3&idfa=92C3BA6F-FB7C-4D59-87E1-44B4C8045DDA&appId=102&link=https://itunes.apple.com/cn/app/yu-yu-jian-kang-liang-xing/id952017570?mt=8&sysVer=9.2.1&type=002&productId=17586", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:25:39 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:25:42 simulation.py[line:123] WARNING Ads Request:http://ads.imopan.com/sec/getTableAd.bin
+Tue, 15 Mar 2016 16:25:42 connectionpool.py[line:207] INFO Starting new HTTP connection (1): ads.imopan.com
+Tue, 15 Mar 2016 16:25:42 connectionpool.py[line:387] DEBUG "POST /sec/getTableAd.bin HTTP/1.1" 200 None
+Tue, 15 Mar 2016 16:25:42 simulation.py[line:95] WARNING Show Ads Pic:http://apk1.imopan.com/appsoft/cpa/imgs/201509/art_86_20150908153526_resize_414_17586.jpg
+Tue, 15 Mar 2016 16:25:42 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://apk1.imopan.com/appsoft/cpa/imgs/201509/art_86_20150908153526_resize_414_17586.jpg", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:25:42 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:25:42 simulation.py[line:123] WARNING Ads Request:http://ads.imopan.com/sec/getBannerAd.bin
+Tue, 15 Mar 2016 16:25:42 connectionpool.py[line:207] INFO Starting new HTTP connection (1): ads.imopan.com
+Tue, 15 Mar 2016 16:25:42 connectionpool.py[line:387] DEBUG "POST /sec/getBannerAd.bin HTTP/1.1" 200 None
+Tue, 15 Mar 2016 16:25:42 simulation.py[line:95] WARNING Show Ads Pic:http://apk1.imopan.com/appsoft/cpa/imgs/201510/art_banner_640_100_101_20151026162201.jpg
+Tue, 15 Mar 2016 16:25:42 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://apk1.imopan.com/appsoft/cpa/imgs/201510/art_banner_640_100_101_20151026162201.jpg", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:25:42 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:25:42 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://ads.imopan.com/sec/bannerClick.bin?versoft=ios_banner_v1.0&s=56beb5f0e3d7274551b97c8f3ea9dfe3&idfa=92C3BA6F-FB7C-4D59-87E1-44B4C8045DDA&appId=101&link=http://itunes.apple.com/cn/app/id388089858?mt=8&sysVer=9.2.1&type=002&productId=17586", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:25:44 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:25:47 simulation.py[line:123] WARNING Ads Request:http://ads.imopan.com/sec/getTableAd.bin
+Tue, 15 Mar 2016 16:25:47 connectionpool.py[line:207] INFO Starting new HTTP connection (1): ads.imopan.com
+Tue, 15 Mar 2016 16:25:47 connectionpool.py[line:387] DEBUG "POST /sec/getTableAd.bin HTTP/1.1" 200 None
+Tue, 15 Mar 2016 16:25:47 simulation.py[line:95] WARNING Show Ads Pic:http://apk1.imopan.com/appsoft/cpa/imgs/201509/art_94_20150908100858_resize_414_17586.jpg
+Tue, 15 Mar 2016 16:25:47 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://apk1.imopan.com/appsoft/cpa/imgs/201509/art_94_20150908100858_resize_414_17586.jpg", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:25:47 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:25:47 simulation.py[line:123] WARNING Ads Request:http://ads.imopan.com/sec/getBannerAd.bin
+Tue, 15 Mar 2016 16:25:47 connectionpool.py[line:207] INFO Starting new HTTP connection (1): ads.imopan.com
+Tue, 15 Mar 2016 16:25:47 connectionpool.py[line:387] DEBUG "POST /sec/getBannerAd.bin HTTP/1.1" 200 None
+Tue, 15 Mar 2016 16:25:47 simulation.py[line:95] WARNING Show Ads Pic:http://apk1.imopan.com/appsoft/cpa/imgs/201511/art_banner_640_100_105_20151110111619.jpg
+Tue, 15 Mar 2016 16:25:47 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://apk1.imopan.com/appsoft/cpa/imgs/201511/art_banner_640_100_105_20151110111619.jpg", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:25:47 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:25:47 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://ads.imopan.com/sec/bannerClick.bin?versoft=ios_banner_v1.0&s=56beb5f0e3d7274551b97c8f3ea9dfe3&idfa=92C3BA6F-FB7C-4D59-87E1-44B4C8045DDA&appId=105&link=http://www.adsensor.org/track/6af6e202/9B568F906F2EEB76EA00E900C69E38FF?campaignId=59Nq_6TXIoJm&sysVer=9.2.1&type=002&productId=17586", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:25:48 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:25:51 simulation.py[line:123] WARNING Ads Request:http://ads.imopan.com/sec/getTableAd.bin
+Tue, 15 Mar 2016 16:25:51 connectionpool.py[line:207] INFO Starting new HTTP connection (1): ads.imopan.com
+Tue, 15 Mar 2016 16:25:51 connectionpool.py[line:387] DEBUG "POST /sec/getTableAd.bin HTTP/1.1" 200 None
+Tue, 15 Mar 2016 16:25:51 simulation.py[line:95] WARNING Show Ads Pic:http://apk1.imopan.com/appsoft/cpa/imgs/201512/art_110_20151202131238_resize_414_17586.jpg
+Tue, 15 Mar 2016 16:25:51 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://apk1.imopan.com/appsoft/cpa/imgs/201512/art_110_20151202131238_resize_414_17586.jpg", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:25:51 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:25:51 simulation.py[line:123] WARNING Ads Request:http://ads.imopan.com/sec/getBannerAd.bin
+Tue, 15 Mar 2016 16:25:51 connectionpool.py[line:207] INFO Starting new HTTP connection (1): ads.imopan.com
+Tue, 15 Mar 2016 16:25:51 connectionpool.py[line:387] DEBUG "POST /sec/getBannerAd.bin HTTP/1.1" 200 None
+Tue, 15 Mar 2016 16:25:51 simulation.py[line:95] WARNING Show Ads Pic:http://apk1.imopan.com/appsoft/cpa/imgs/201512/art_banner_640_100_111_20151202163905.jpg
+Tue, 15 Mar 2016 16:25:51 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://apk1.imopan.com/appsoft/cpa/imgs/201512/art_banner_640_100_111_20151202163905.jpg", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:25:51 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:25:51 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://ads.imopan.com/sec/bannerClick.bin?versoft=ios_banner_v1.0&s=56beb5f0e3d7274551b97c8f3ea9dfe3&idfa=92C3BA6F-FB7C-4D59-87E1-44B4C8045DDA&appId=111&link=https://itunes.apple.com/cn/app/heng-sao-qian-jun-tang-guo/id997636530?l=zh&ls=1&mt=8&sysVer=9.2.1&type=002&productId=17586", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:25:57 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:26:00 simulation.py[line:123] WARNING Ads Request:http://ads.imopan.com/sec/getTableAd.bin
+Tue, 15 Mar 2016 16:26:00 connectionpool.py[line:207] INFO Starting new HTTP connection (1): ads.imopan.com
+Tue, 15 Mar 2016 16:26:00 connectionpool.py[line:387] DEBUG "POST /sec/getTableAd.bin HTTP/1.1" 200 None
+Tue, 15 Mar 2016 16:26:00 simulation.py[line:95] WARNING Show Ads Pic:http://apk1.imopan.com/appsoft/cpa/imgs/201601/art_117_20160127150656_resize_414_17586.jpg
+Tue, 15 Mar 2016 16:26:00 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://apk1.imopan.com/appsoft/cpa/imgs/201601/art_117_20160127150656_resize_414_17586.jpg", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:26:00 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:26:00 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://ads.imopan.com/sec/tableClick.bin?versoft=ios_banner_v1.0&s=56beb5f0e3d7274551b97c8f3ea9dfe3&idfa=92C3BA6F-FC7C-4D59-87E1-44B4C8045DDA&appId=117&link=https://itunes.apple.com/cn/app/id469310248&sysVer=9.2.1&type=001&productId=900", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:26:01 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:26:04 simulation.py[line:123] WARNING Ads Request:http://ads.imopan.com/sec/getBannerAd.bin
+Tue, 15 Mar 2016 16:26:04 connectionpool.py[line:207] INFO Starting new HTTP connection (1): ads.imopan.com
+Tue, 15 Mar 2016 16:26:04 connectionpool.py[line:387] DEBUG "POST /sec/getBannerAd.bin HTTP/1.1" 200 None
+Tue, 15 Mar 2016 16:26:04 simulation.py[line:95] WARNING Show Ads Pic:http://apk1.imopan.com/appsoft/cpa/imgs/201601/art_banner_640_100_119_20160127151408.jpg
+Tue, 15 Mar 2016 16:26:04 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://apk1.imopan.com/appsoft/cpa/imgs/201601/art_banner_640_100_119_20160127151408.jpg", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:26:04 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:26:04 simulation.py[line:123] WARNING Ads Request:http://ads.imopan.com/sec/getTableAd.bin
+Tue, 15 Mar 2016 16:26:04 connectionpool.py[line:207] INFO Starting new HTTP connection (1): ads.imopan.com
+Tue, 15 Mar 2016 16:26:04 connectionpool.py[line:387] DEBUG "POST /sec/getTableAd.bin HTTP/1.1" 200 None
+Tue, 15 Mar 2016 16:26:04 simulation.py[line:95] WARNING Show Ads Pic:http://apk1.imopan.com/appsoft/cpa/imgs/201602/art_121_20160217165641_resize_414_17586.jpg
+Tue, 15 Mar 2016 16:26:04 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://apk1.imopan.com/appsoft/cpa/imgs/201602/art_121_20160217165641_resize_414_17586.jpg", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:26:04 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:26:04 simulation.py[line:123] WARNING Ads Request:http://ads.imopan.com/sec/getBannerAd.bin
+Tue, 15 Mar 2016 16:26:04 connectionpool.py[line:207] INFO Starting new HTTP connection (1): ads.imopan.com
+Tue, 15 Mar 2016 16:26:04 connectionpool.py[line:387] DEBUG "POST /sec/getBannerAd.bin HTTP/1.1" 200 None
+Tue, 15 Mar 2016 16:26:04 simulation.py[line:95] WARNING Show Ads Pic:http://apk1.imopan.com/appsoft/cpa/imgs/201602/art_banner_640_100_124_20160217170630.jpg
+Tue, 15 Mar 2016 16:26:04 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://apk1.imopan.com/appsoft/cpa/imgs/201602/art_banner_640_100_124_20160217170630.jpg", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:26:04 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:26:04 simulation.py[line:123] WARNING Ads Request:http://ads.imopan.com/sec/getTableAd.bin
+Tue, 15 Mar 2016 16:26:04 connectionpool.py[line:207] INFO Starting new HTTP connection (1): ads.imopan.com
+Tue, 15 Mar 2016 16:26:04 connectionpool.py[line:387] DEBUG "POST /sec/getTableAd.bin HTTP/1.1" 200 None
+Tue, 15 Mar 2016 16:26:04 simulation.py[line:150] ERROR Ads url:http://ads.imopan.com/sec/getTableAd.bin request error..
+Tue, 15 Mar 2016 16:26:04 simulation.py[line:123] WARNING Ads Request:http://ads.imopan.com/sec/getBannerAd.bin
+Tue, 15 Mar 2016 16:26:04 connectionpool.py[line:207] INFO Starting new HTTP connection (1): ads.imopan.com
+Tue, 15 Mar 2016 16:26:04 connectionpool.py[line:387] DEBUG "POST /sec/getBannerAd.bin HTTP/1.1" 200 None
+Tue, 15 Mar 2016 16:26:04 simulation.py[line:95] WARNING Show Ads Pic:http://apk1.imopan.com/appsoft/cpa/imgs/201510/art_banner_640_100_102_20151026182905.jpg
+Tue, 15 Mar 2016 16:26:04 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://apk1.imopan.com/appsoft/cpa/imgs/201510/art_banner_640_100_102_20151026182905.jpg", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:26:04 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:26:04 simulation.py[line:123] WARNING Ads Request:http://ads.imopan.com/sec/getTableAd.bin
+Tue, 15 Mar 2016 16:26:04 connectionpool.py[line:207] INFO Starting new HTTP connection (1): ads.imopan.com
+Tue, 15 Mar 2016 16:26:04 connectionpool.py[line:387] DEBUG "POST /sec/getTableAd.bin HTTP/1.1" 200 None
+Tue, 15 Mar 2016 16:26:04 simulation.py[line:150] ERROR Ads url:http://ads.imopan.com/sec/getTableAd.bin request error..
+Tue, 15 Mar 2016 16:26:04 simulation.py[line:123] WARNING Ads Request:http://ads.imopan.com/sec/getBannerAd.bin
+Tue, 15 Mar 2016 16:26:04 connectionpool.py[line:207] INFO Starting new HTTP connection (1): ads.imopan.com
+Tue, 15 Mar 2016 16:26:04 connectionpool.py[line:387] DEBUG "POST /sec/getBannerAd.bin HTTP/1.1" 200 None
+Tue, 15 Mar 2016 16:26:04 simulation.py[line:95] WARNING Show Ads Pic:http://apk1.imopan.com/appsoft/cpa/imgs/201510/art_banner_640_100_101_20151026162201.jpg
+Tue, 15 Mar 2016 16:26:04 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://apk1.imopan.com/appsoft/cpa/imgs/201510/art_banner_640_100_101_20151026162201.jpg", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:26:04 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:26:04 simulation.py[line:123] WARNING Ads Request:http://ads.imopan.com/sec/getTableAd.bin
+Tue, 15 Mar 2016 16:26:04 connectionpool.py[line:207] INFO Starting new HTTP connection (1): ads.imopan.com
+Tue, 15 Mar 2016 16:26:04 connectionpool.py[line:387] DEBUG "POST /sec/getTableAd.bin HTTP/1.1" 200 None
+Tue, 15 Mar 2016 16:26:04 simulation.py[line:150] ERROR Ads url:http://ads.imopan.com/sec/getTableAd.bin request error..
+Tue, 15 Mar 2016 16:26:04 simulation.py[line:123] WARNING Ads Request:http://ads.imopan.com/sec/getBannerAd.bin
+Tue, 15 Mar 2016 16:26:04 connectionpool.py[line:207] INFO Starting new HTTP connection (1): ads.imopan.com
+Tue, 15 Mar 2016 16:26:04 connectionpool.py[line:387] DEBUG "POST /sec/getBannerAd.bin HTTP/1.1" 200 None
+Tue, 15 Mar 2016 16:26:04 simulation.py[line:95] WARNING Show Ads Pic:http://apk1.imopan.com/appsoft/cpa/imgs/201511/art_banner_640_100_105_20151110111619.jpg
+Tue, 15 Mar 2016 16:26:04 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://apk1.imopan.com/appsoft/cpa/imgs/201511/art_banner_640_100_105_20151110111619.jpg", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:26:04 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:26:04 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://ads.imopan.com/sec/bannerClick.bin?versoft=ios_banner_v1.0&s=56beb5f0e3d7274551b97c8f3ea9dfe3&idfa=92C3BA6F-FB7C-4D59-87E1-44B4C8045DDA&appId=105&link=http://www.adsensor.org/track/6af6e202/9B568F906F2EEB76EA00E900C69E38FF?campaignId=59Nq_6TXIoJm&sysVer=9.2.1&type=002&productId=17586", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:26:06 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:26:09 simulation.py[line:123] WARNING Ads Request:http://ads.imopan.com/sec/getTableAd.bin
+Tue, 15 Mar 2016 16:26:09 connectionpool.py[line:207] INFO Starting new HTTP connection (1): ads.imopan.com
+Tue, 15 Mar 2016 16:26:09 connectionpool.py[line:387] DEBUG "POST /sec/getTableAd.bin HTTP/1.1" 200 None
+Tue, 15 Mar 2016 16:26:09 simulation.py[line:95] WARNING Show Ads Pic:http://apk1.imopan.com/appsoft/cpa/imgs/201509/art_86_20150908153526_resize_414_17586.jpg
+Tue, 15 Mar 2016 16:26:09 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://apk1.imopan.com/appsoft/cpa/imgs/201509/art_86_20150908153526_resize_414_17586.jpg", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:26:09 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:26:09 simulation.py[line:123] WARNING Ads Request:http://ads.imopan.com/sec/getBannerAd.bin
+Tue, 15 Mar 2016 16:26:09 connectionpool.py[line:207] INFO Starting new HTTP connection (1): ads.imopan.com
+Tue, 15 Mar 2016 16:26:09 connectionpool.py[line:387] DEBUG "POST /sec/getBannerAd.bin HTTP/1.1" 200 None
+Tue, 15 Mar 2016 16:26:09 simulation.py[line:95] WARNING Show Ads Pic:http://apk1.imopan.com/appsoft/cpa/imgs/201512/art_banner_640_100_111_20151202163905.jpg
+Tue, 15 Mar 2016 16:26:09 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://apk1.imopan.com/appsoft/cpa/imgs/201512/art_banner_640_100_111_20151202163905.jpg", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:26:09 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:26:09 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://ads.imopan.com/sec/bannerClick.bin?versoft=ios_banner_v1.0&s=56beb5f0e3d7274551b97c8f3ea9dfe3&idfa=92C3BA6F-FB7C-4D59-87E1-44B4C8045DDA&appId=111&link=https://itunes.apple.com/cn/app/heng-sao-qian-jun-tang-guo/id997636530?l=zh&ls=1&mt=8&sysVer=9.2.1&type=002&productId=17586", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:26:15 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:26:18 simulation.py[line:123] WARNING Ads Request:http://ads.imopan.com/sec/getTableAd.bin
+Tue, 15 Mar 2016 16:26:18 connectionpool.py[line:207] INFO Starting new HTTP connection (1): ads.imopan.com
+Tue, 15 Mar 2016 16:26:18 connectionpool.py[line:387] DEBUG "POST /sec/getTableAd.bin HTTP/1.1" 200 None
+Tue, 15 Mar 2016 16:26:18 simulation.py[line:95] WARNING Show Ads Pic:http://apk1.imopan.com/appsoft/cpa/imgs/201509/art_94_20150908100858_resize_414_17586.jpg
+Tue, 15 Mar 2016 16:26:18 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://apk1.imopan.com/appsoft/cpa/imgs/201509/art_94_20150908100858_resize_414_17586.jpg", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:26:18 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:26:18 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://ads.imopan.com/sec/tableClick.bin?versoft=ios_banner_v1.0&s=56beb5f0e3d7274551b97c8f3ea9dfe3&idfa=92C3BA6F-FC7C-4D59-87E1-44B4C8045DDA&appId=94&link=https://itunes.apple.com/cn/app/da-gua-wu-lin/id1018722423?mt=8&sysVer=9.2.1&type=001&productId=900", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:26:20 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:26:24 simulation.py[line:123] WARNING Ads Request:http://ads.imopan.com/sec/getBannerAd.bin
+Tue, 15 Mar 2016 16:26:24 connectionpool.py[line:207] INFO Starting new HTTP connection (1): ads.imopan.com
+Tue, 15 Mar 2016 16:26:24 connectionpool.py[line:387] DEBUG "POST /sec/getBannerAd.bin HTTP/1.1" 200 None
+Tue, 15 Mar 2016 16:26:24 simulation.py[line:95] WARNING Show Ads Pic:http://apk1.imopan.com/appsoft/cpa/imgs/201601/art_banner_640_100_119_20160127151408.jpg
+Tue, 15 Mar 2016 16:26:24 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://apk1.imopan.com/appsoft/cpa/imgs/201601/art_banner_640_100_119_20160127151408.jpg", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:26:24 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:26:24 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://ads.imopan.com/sec/bannerClick.bin?versoft=ios_banner_v1.0&s=56beb5f0e3d7274551b97c8f3ea9dfe3&idfa=92C3BA6F-FB7C-4D59-87E1-44B4C8045DDA&appId=119&link=https://itunes.apple.com/cn/app/id469310248&sysVer=9.2.1&type=002&productId=17586", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:26:25 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:26:28 simulation.py[line:123] WARNING Ads Request:http://ads.imopan.com/sec/getTableAd.bin
+Tue, 15 Mar 2016 16:26:28 connectionpool.py[line:207] INFO Starting new HTTP connection (1): ads.imopan.com
+Tue, 15 Mar 2016 16:26:28 connectionpool.py[line:387] DEBUG "POST /sec/getTableAd.bin HTTP/1.1" 200 None
+Tue, 15 Mar 2016 16:26:28 simulation.py[line:95] WARNING Show Ads Pic:http://apk1.imopan.com/appsoft/cpa/imgs/201512/art_110_20151202131238_resize_414_17586.jpg
+Tue, 15 Mar 2016 16:26:28 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://apk1.imopan.com/appsoft/cpa/imgs/201512/art_110_20151202131238_resize_414_17586.jpg", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:26:28 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:26:28 simulation.py[line:123] WARNING Ads Request:http://ads.imopan.com/sec/getBannerAd.bin
+Tue, 15 Mar 2016 16:26:28 connectionpool.py[line:207] INFO Starting new HTTP connection (1): ads.imopan.com
+Tue, 15 Mar 2016 16:26:28 connectionpool.py[line:387] DEBUG "POST /sec/getBannerAd.bin HTTP/1.1" 200 None
+Tue, 15 Mar 2016 16:26:28 simulation.py[line:95] WARNING Show Ads Pic:http://apk1.imopan.com/appsoft/cpa/imgs/201602/art_banner_640_100_124_20160217170630.jpg
+Tue, 15 Mar 2016 16:26:28 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://apk1.imopan.com/appsoft/cpa/imgs/201602/art_banner_640_100_124_20160217170630.jpg", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:26:28 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:26:28 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://ads.imopan.com/sec/bannerClick.bin?versoft=ios_banner_v1.0&s=56beb5f0e3d7274551b97c8f3ea9dfe3&idfa=92C3BA6F-FB7C-4D59-87E1-44B4C8045DDA&appId=124&link=https://itunes.apple.com/us/app/uber/id368677368?mt=8&ct=Vpon&sysVer=9.2.1&type=002&productId=17586", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:27:45 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:27:48 simulation.py[line:123] WARNING Ads Request:http://ads.imopan.com/sec/getTableAd.bin
+Tue, 15 Mar 2016 16:27:48 connectionpool.py[line:207] INFO Starting new HTTP connection (1): ads.imopan.com
+Tue, 15 Mar 2016 16:27:49 connectionpool.py[line:387] DEBUG "POST /sec/getTableAd.bin HTTP/1.1" 200 None
+Tue, 15 Mar 2016 16:27:49 simulation.py[line:95] WARNING Show Ads Pic:http://apk1.imopan.com/appsoft/cpa/imgs/201601/art_117_20160127150656_resize_414_17586.jpg
+Tue, 15 Mar 2016 16:27:49 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://apk1.imopan.com/appsoft/cpa/imgs/201601/art_117_20160127150656_resize_414_17586.jpg", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:27:49 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:27:49 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://ads.imopan.com/sec/tableClick.bin?versoft=ios_banner_v1.0&s=56beb5f0e3d7274551b97c8f3ea9dfe3&idfa=92C3BA6F-FC7C-4D59-87E1-44B4C8045DDA&appId=117&link=https://itunes.apple.com/cn/app/id469310248&sysVer=9.2.1&type=001&productId=900", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:27:53 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:27:56 simulation.py[line:123] WARNING Ads Request:http://ads.imopan.com/sec/getBannerAd.bin
+Tue, 15 Mar 2016 16:27:56 connectionpool.py[line:207] INFO Starting new HTTP connection (1): ads.imopan.com
+Tue, 15 Mar 2016 16:27:56 connectionpool.py[line:387] DEBUG "POST /sec/getBannerAd.bin HTTP/1.1" 200 None
+Tue, 15 Mar 2016 16:27:56 simulation.py[line:95] WARNING Show Ads Pic:http://apk1.imopan.com/appsoft/cpa/imgs/201510/art_banner_640_100_102_20151026182905.jpg
+Tue, 15 Mar 2016 16:27:56 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://apk1.imopan.com/appsoft/cpa/imgs/201510/art_banner_640_100_102_20151026182905.jpg", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:27:56 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:27:56 simulation.py[line:123] WARNING Ads Request:http://ads.imopan.com/sec/getTableAd.bin
+Tue, 15 Mar 2016 16:27:56 connectionpool.py[line:207] INFO Starting new HTTP connection (1): ads.imopan.com
+Tue, 15 Mar 2016 16:27:56 connectionpool.py[line:387] DEBUG "POST /sec/getTableAd.bin HTTP/1.1" 200 None
+Tue, 15 Mar 2016 16:27:56 simulation.py[line:95] WARNING Show Ads Pic:http://apk1.imopan.com/appsoft/cpa/imgs/201602/art_121_20160217165641_resize_414_17586.jpg
+Tue, 15 Mar 2016 16:27:56 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://apk1.imopan.com/appsoft/cpa/imgs/201602/art_121_20160217165641_resize_414_17586.jpg", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:27:56 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:27:56 simulation.py[line:123] WARNING Ads Request:http://ads.imopan.com/sec/getBannerAd.bin
+Tue, 15 Mar 2016 16:27:57 connectionpool.py[line:207] INFO Starting new HTTP connection (1): ads.imopan.com
+Tue, 15 Mar 2016 16:27:57 connectionpool.py[line:387] DEBUG "POST /sec/getBannerAd.bin HTTP/1.1" 200 None
+Tue, 15 Mar 2016 16:27:57 simulation.py[line:95] WARNING Show Ads Pic:http://apk1.imopan.com/appsoft/cpa/imgs/201510/art_banner_640_100_101_20151026162201.jpg
+Tue, 15 Mar 2016 16:27:57 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://apk1.imopan.com/appsoft/cpa/imgs/201510/art_banner_640_100_101_20151026162201.jpg", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:27:57 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:27:57 simulation.py[line:123] WARNING Ads Request:http://ads.imopan.com/sec/getTableAd.bin
+Tue, 15 Mar 2016 16:27:57 connectionpool.py[line:207] INFO Starting new HTTP connection (1): ads.imopan.com
+Tue, 15 Mar 2016 16:27:57 connectionpool.py[line:387] DEBUG "POST /sec/getTableAd.bin HTTP/1.1" 200 None
+Tue, 15 Mar 2016 16:27:57 simulation.py[line:150] ERROR Ads url:http://ads.imopan.com/sec/getTableAd.bin request error..
+Tue, 15 Mar 2016 16:27:57 simulation.py[line:123] WARNING Ads Request:http://ads.imopan.com/sec/getBannerAd.bin
+Tue, 15 Mar 2016 16:27:57 connectionpool.py[line:207] INFO Starting new HTTP connection (1): ads.imopan.com
+Tue, 15 Mar 2016 16:27:57 connectionpool.py[line:387] DEBUG "POST /sec/getBannerAd.bin HTTP/1.1" 200 None
+Tue, 15 Mar 2016 16:27:57 simulation.py[line:95] WARNING Show Ads Pic:http://apk1.imopan.com/appsoft/cpa/imgs/201511/art_banner_640_100_105_20151110111619.jpg
+Tue, 15 Mar 2016 16:27:57 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://apk1.imopan.com/appsoft/cpa/imgs/201511/art_banner_640_100_105_20151110111619.jpg", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:27:57 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:27:57 simulation.py[line:123] WARNING Ads Request:http://ads.imopan.com/sec/getTableAd.bin
+Tue, 15 Mar 2016 16:27:57 connectionpool.py[line:207] INFO Starting new HTTP connection (1): ads.imopan.com
+Tue, 15 Mar 2016 16:27:57 connectionpool.py[line:387] DEBUG "POST /sec/getTableAd.bin HTTP/1.1" 200 None
+Tue, 15 Mar 2016 16:27:57 simulation.py[line:150] ERROR Ads url:http://ads.imopan.com/sec/getTableAd.bin request error..
+Tue, 15 Mar 2016 16:27:57 simulation.py[line:123] WARNING Ads Request:http://ads.imopan.com/sec/getBannerAd.bin
+Tue, 15 Mar 2016 16:27:57 connectionpool.py[line:207] INFO Starting new HTTP connection (1): ads.imopan.com
+Tue, 15 Mar 2016 16:27:57 connectionpool.py[line:387] DEBUG "POST /sec/getBannerAd.bin HTTP/1.1" 200 None
+Tue, 15 Mar 2016 16:27:57 simulation.py[line:95] WARNING Show Ads Pic:http://apk1.imopan.com/appsoft/cpa/imgs/201512/art_banner_640_100_111_20151202163905.jpg
+Tue, 15 Mar 2016 16:27:57 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://apk1.imopan.com/appsoft/cpa/imgs/201512/art_banner_640_100_111_20151202163905.jpg", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:27:57 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:27:57 simulation.py[line:123] WARNING Ads Request:http://ads.imopan.com/sec/getTableAd.bin
+Tue, 15 Mar 2016 16:27:57 connectionpool.py[line:207] INFO Starting new HTTP connection (1): ads.imopan.com
+Tue, 15 Mar 2016 16:27:57 connectionpool.py[line:387] DEBUG "POST /sec/getTableAd.bin HTTP/1.1" 200 None
+Tue, 15 Mar 2016 16:27:57 simulation.py[line:150] ERROR Ads url:http://ads.imopan.com/sec/getTableAd.bin request error..
+Tue, 15 Mar 2016 16:27:57 simulation.py[line:123] WARNING Ads Request:http://ads.imopan.com/sec/getBannerAd.bin
+Tue, 15 Mar 2016 16:27:57 connectionpool.py[line:207] INFO Starting new HTTP connection (1): ads.imopan.com
+Tue, 15 Mar 2016 16:27:57 connectionpool.py[line:387] DEBUG "POST /sec/getBannerAd.bin HTTP/1.1" 200 None
+Tue, 15 Mar 2016 16:27:57 simulation.py[line:95] WARNING Show Ads Pic:http://apk1.imopan.com/appsoft/cpa/imgs/201601/art_banner_640_100_119_20160127151408.jpg
+Tue, 15 Mar 2016 16:27:57 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://apk1.imopan.com/appsoft/cpa/imgs/201601/art_banner_640_100_119_20160127151408.jpg", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:27:57 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:27:57 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://ads.imopan.com/sec/bannerClick.bin?versoft=ios_banner_v1.0&s=56beb5f0e3d7274551b97c8f3ea9dfe3&idfa=92C3BA6F-FB7C-4D59-87E1-44B4C8045DDA&appId=119&link=https://itunes.apple.com/cn/app/id469310248&sysVer=9.2.1&type=002&productId=17586", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:27:58 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:28:01 simulation.py[line:123] WARNING Ads Request:http://ads.imopan.com/sec/getTableAd.bin
+Tue, 15 Mar 2016 16:28:01 connectionpool.py[line:207] INFO Starting new HTTP connection (1): ads.imopan.com
+Tue, 15 Mar 2016 16:28:01 connectionpool.py[line:387] DEBUG "POST /sec/getTableAd.bin HTTP/1.1" 200 None
+Tue, 15 Mar 2016 16:28:01 simulation.py[line:95] WARNING Show Ads Pic:http://apk1.imopan.com/appsoft/cpa/imgs/201509/art_86_20150908153526_resize_414_17586.jpg
+Tue, 15 Mar 2016 16:28:01 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://apk1.imopan.com/appsoft/cpa/imgs/201509/art_86_20150908153526_resize_414_17586.jpg", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:28:01 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:28:01 simulation.py[line:123] WARNING Ads Request:http://ads.imopan.com/sec/getBannerAd.bin
+Tue, 15 Mar 2016 16:28:01 connectionpool.py[line:207] INFO Starting new HTTP connection (1): ads.imopan.com
+Tue, 15 Mar 2016 16:28:01 connectionpool.py[line:387] DEBUG "POST /sec/getBannerAd.bin HTTP/1.1" 200 None
+Tue, 15 Mar 2016 16:28:01 simulation.py[line:95] WARNING Show Ads Pic:http://apk1.imopan.com/appsoft/cpa/imgs/201602/art_banner_640_100_124_20160217170630.jpg
+Tue, 15 Mar 2016 16:28:01 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://apk1.imopan.com/appsoft/cpa/imgs/201602/art_banner_640_100_124_20160217170630.jpg", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:28:01 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:28:01 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://ads.imopan.com/sec/bannerClick.bin?versoft=ios_banner_v1.0&s=56beb5f0e3d7274551b97c8f3ea9dfe3&idfa=92C3BA6F-FB7C-4D59-87E1-44B4C8045DDA&appId=124&link=https://itunes.apple.com/us/app/uber/id368677368?mt=8&ct=Vpon&sysVer=9.2.1&type=002&productId=17586", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:29:18 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:29:21 simulation.py[line:123] WARNING Ads Request:http://ads.imopan.com/sec/getTableAd.bin
+Tue, 15 Mar 2016 16:29:21 connectionpool.py[line:207] INFO Starting new HTTP connection (1): ads.imopan.com
+Tue, 15 Mar 2016 16:29:21 connectionpool.py[line:387] DEBUG "POST /sec/getTableAd.bin HTTP/1.1" 200 None
+Tue, 15 Mar 2016 16:29:21 simulation.py[line:95] WARNING Show Ads Pic:http://apk1.imopan.com/appsoft/cpa/imgs/201509/art_94_20150908100858_resize_414_17586.jpg
+Tue, 15 Mar 2016 16:29:21 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://apk1.imopan.com/appsoft/cpa/imgs/201509/art_94_20150908100858_resize_414_17586.jpg", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:29:22 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:29:22 simulation.py[line:123] WARNING Ads Request:http://ads.imopan.com/sec/getBannerAd.bin
+Tue, 15 Mar 2016 16:29:22 connectionpool.py[line:207] INFO Starting new HTTP connection (1): ads.imopan.com
+Tue, 15 Mar 2016 16:29:22 connectionpool.py[line:387] DEBUG "POST /sec/getBannerAd.bin HTTP/1.1" 200 None
+Tue, 15 Mar 2016 16:29:22 simulation.py[line:95] WARNING Show Ads Pic:http://apk1.imopan.com/appsoft/cpa/imgs/201510/art_banner_640_100_102_20151026182905.jpg
+Tue, 15 Mar 2016 16:29:22 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://apk1.imopan.com/appsoft/cpa/imgs/201510/art_banner_640_100_102_20151026182905.jpg", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:29:22 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:29:22 simulation.py[line:123] WARNING Ads Request:http://ads.imopan.com/sec/getTableAd.bin
+Tue, 15 Mar 2016 16:29:22 connectionpool.py[line:207] INFO Starting new HTTP connection (1): ads.imopan.com
+Tue, 15 Mar 2016 16:29:22 connectionpool.py[line:387] DEBUG "POST /sec/getTableAd.bin HTTP/1.1" 200 None
+Tue, 15 Mar 2016 16:29:22 simulation.py[line:95] WARNING Show Ads Pic:http://apk1.imopan.com/appsoft/cpa/imgs/201512/art_110_20151202131238_resize_414_17586.jpg
+Tue, 15 Mar 2016 16:29:22 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://apk1.imopan.com/appsoft/cpa/imgs/201512/art_110_20151202131238_resize_414_17586.jpg", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:29:23 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:29:23 simulation.py[line:123] WARNING Ads Request:http://ads.imopan.com/sec/getBannerAd.bin
+Tue, 15 Mar 2016 16:29:23 connectionpool.py[line:207] INFO Starting new HTTP connection (1): ads.imopan.com
+Tue, 15 Mar 2016 16:29:23 connectionpool.py[line:387] DEBUG "POST /sec/getBannerAd.bin HTTP/1.1" 200 None
+Tue, 15 Mar 2016 16:29:23 simulation.py[line:95] WARNING Show Ads Pic:http://apk1.imopan.com/appsoft/cpa/imgs/201510/art_banner_640_100_101_20151026162201.jpg
+Tue, 15 Mar 2016 16:29:23 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://apk1.imopan.com/appsoft/cpa/imgs/201510/art_banner_640_100_101_20151026162201.jpg", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:29:23 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:29:23 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://ads.imopan.com/sec/bannerClick.bin?versoft=ios_banner_v1.0&s=56beb5f0e3d7274551b97c8f3ea9dfe3&idfa=92C3BA6F-FB7C-4D59-87E1-44B4C8045DDA&appId=101&link=http://itunes.apple.com/cn/app/id388089858?mt=8&sysVer=9.2.1&type=002&productId=17586", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:29:23 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:29:26 simulation.py[line:123] WARNING Ads Request:http://ads.imopan.com/sec/getTableAd.bin
+Tue, 15 Mar 2016 16:29:26 connectionpool.py[line:207] INFO Starting new HTTP connection (1): ads.imopan.com
+Tue, 15 Mar 2016 16:29:27 connectionpool.py[line:387] DEBUG "POST /sec/getTableAd.bin HTTP/1.1" 200 None
+Tue, 15 Mar 2016 16:29:27 simulation.py[line:95] WARNING Show Ads Pic:http://apk1.imopan.com/appsoft/cpa/imgs/201601/art_117_20160127150656_resize_414_17586.jpg
+Tue, 15 Mar 2016 16:29:27 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://apk1.imopan.com/appsoft/cpa/imgs/201601/art_117_20160127150656_resize_414_17586.jpg", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:29:28 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:29:28 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://ads.imopan.com/sec/tableClick.bin?versoft=ios_banner_v1.0&s=56beb5f0e3d7274551b97c8f3ea9dfe3&idfa=92C3BA6F-FC7C-4D59-87E1-44B4C8045DDA&appId=117&link=https://itunes.apple.com/cn/app/id469310248&sysVer=9.2.1&type=001&productId=900", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:30:30 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:30:33 simulation.py[line:123] WARNING Ads Request:http://ads.imopan.com/sec/getBannerAd.bin
+Tue, 15 Mar 2016 16:30:33 connectionpool.py[line:207] INFO Starting new HTTP connection (1): ads.imopan.com
+Tue, 15 Mar 2016 16:30:33 connectionpool.py[line:387] DEBUG "POST /sec/getBannerAd.bin HTTP/1.1" 200 None
+Tue, 15 Mar 2016 16:30:33 simulation.py[line:95] WARNING Show Ads Pic:http://apk1.imopan.com/appsoft/cpa/imgs/201511/art_banner_640_100_105_20151110111619.jpg
+Tue, 15 Mar 2016 16:30:33 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://apk1.imopan.com/appsoft/cpa/imgs/201511/art_banner_640_100_105_20151110111619.jpg", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:30:35 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:30:35 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://ads.imopan.com/sec/bannerClick.bin?versoft=ios_banner_v1.0&s=56beb5f0e3d7274551b97c8f3ea9dfe3&idfa=92C3BA6F-FB7C-4D59-87E1-44B4C8045DDA&appId=105&link=http://www.adsensor.org/track/6af6e202/9B568F906F2EEB76EA00E900C69E38FF?campaignId=59Nq_6TXIoJm&sysVer=9.2.1&type=002&productId=17586", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:30:40 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:30:43 simulation.py[line:123] WARNING Ads Request:http://ads.imopan.com/sec/getTableAd.bin
+Tue, 15 Mar 2016 16:30:43 connectionpool.py[line:207] INFO Starting new HTTP connection (1): ads.imopan.com
+Tue, 15 Mar 2016 16:30:43 connectionpool.py[line:387] DEBUG "POST /sec/getTableAd.bin HTTP/1.1" 200 None
+Tue, 15 Mar 2016 16:30:43 simulation.py[line:95] WARNING Show Ads Pic:http://apk1.imopan.com/appsoft/cpa/imgs/201602/art_121_20160217165641_resize_414_17586.jpg
+Tue, 15 Mar 2016 16:30:43 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://apk1.imopan.com/appsoft/cpa/imgs/201602/art_121_20160217165641_resize_414_17586.jpg", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:30:44 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:30:44 simulation.py[line:123] WARNING Ads Request:http://ads.imopan.com/sec/getBannerAd.bin
+Tue, 15 Mar 2016 16:30:44 connectionpool.py[line:207] INFO Starting new HTTP connection (1): ads.imopan.com
+Tue, 15 Mar 2016 16:30:44 connectionpool.py[line:387] DEBUG "POST /sec/getBannerAd.bin HTTP/1.1" 200 None
+Tue, 15 Mar 2016 16:30:44 simulation.py[line:95] WARNING Show Ads Pic:http://apk1.imopan.com/appsoft/cpa/imgs/201512/art_banner_640_100_111_20151202163905.jpg
+Tue, 15 Mar 2016 16:30:44 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://apk1.imopan.com/appsoft/cpa/imgs/201512/art_banner_640_100_111_20151202163905.jpg", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:30:45 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:30:45 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://ads.imopan.com/sec/bannerClick.bin?versoft=ios_banner_v1.0&s=56beb5f0e3d7274551b97c8f3ea9dfe3&idfa=92C3BA6F-FB7C-4D59-87E1-44B4C8045DDA&appId=111&link=https://itunes.apple.com/cn/app/heng-sao-qian-jun-tang-guo/id997636530?l=zh&ls=1&mt=8&sysVer=9.2.1&type=002&productId=17586", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:30:53 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:30:56 simulation.py[line:123] WARNING Ads Request:http://ads.imopan.com/sec/getTableAd.bin
+Tue, 15 Mar 2016 16:30:56 connectionpool.py[line:207] INFO Starting new HTTP connection (1): ads.imopan.com
+Tue, 15 Mar 2016 16:30:56 connectionpool.py[line:387] DEBUG "POST /sec/getTableAd.bin HTTP/1.1" 200 None
+Tue, 15 Mar 2016 16:30:56 simulation.py[line:95] WARNING Show Ads Pic:http://apk1.imopan.com/appsoft/cpa/imgs/201509/art_86_20150908153526_resize_414_17586.jpg
+Tue, 15 Mar 2016 16:30:56 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://apk1.imopan.com/appsoft/cpa/imgs/201509/art_86_20150908153526_resize_414_17586.jpg", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:30:57 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:30:57 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://ads.imopan.com/sec/tableClick.bin?versoft=ios_banner_v1.0&s=56beb5f0e3d7274551b97c8f3ea9dfe3&idfa=92C3BA6F-FC7C-4D59-87E1-44B4C8045DDA&appId=86&link=https://itunes.apple.com/cn/app/gu-long-qun-xia-chuanol/id938003715?l=zh&ls=1&mt=8&sysVer=9.2.1&type=001&productId=900", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:31:06 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:31:09 simulation.py[line:123] WARNING Ads Request:http://ads.imopan.com/sec/getBannerAd.bin
+Tue, 15 Mar 2016 16:31:09 connectionpool.py[line:207] INFO Starting new HTTP connection (1): ads.imopan.com
+Tue, 15 Mar 2016 16:31:09 connectionpool.py[line:387] DEBUG "POST /sec/getBannerAd.bin HTTP/1.1" 200 None
+Tue, 15 Mar 2016 16:31:09 simulation.py[line:95] WARNING Show Ads Pic:http://apk1.imopan.com/appsoft/cpa/imgs/201601/art_banner_640_100_119_20160127151408.jpg
+Tue, 15 Mar 2016 16:31:09 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://apk1.imopan.com/appsoft/cpa/imgs/201601/art_banner_640_100_119_20160127151408.jpg", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:31:11 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:31:11 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://ads.imopan.com/sec/bannerClick.bin?versoft=ios_banner_v1.0&s=56beb5f0e3d7274551b97c8f3ea9dfe3&idfa=92C3BA6F-FB7C-4D59-87E1-44B4C8045DDA&appId=119&link=https://itunes.apple.com/cn/app/id469310248&sysVer=9.2.1&type=002&productId=17586", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:31:16 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:31:19 simulation.py[line:123] WARNING Ads Request:http://ads.imopan.com/sec/getTableAd.bin
+Tue, 15 Mar 2016 16:31:19 connectionpool.py[line:207] INFO Starting new HTTP connection (1): ads.imopan.com
+Tue, 15 Mar 2016 16:31:19 connectionpool.py[line:387] DEBUG "POST /sec/getTableAd.bin HTTP/1.1" 200 None
+Tue, 15 Mar 2016 16:31:19 simulation.py[line:95] WARNING Show Ads Pic:http://apk1.imopan.com/appsoft/cpa/imgs/201509/art_94_20150908100858_resize_414_17586.jpg
+Tue, 15 Mar 2016 16:31:19 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://apk1.imopan.com/appsoft/cpa/imgs/201509/art_94_20150908100858_resize_414_17586.jpg", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:31:19 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:31:19 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://ads.imopan.com/sec/tableClick.bin?versoft=ios_banner_v1.0&s=56beb5f0e3d7274551b97c8f3ea9dfe3&idfa=92C3BA6F-FC7C-4D59-87E1-44B4C8045DDA&appId=94&link=https://itunes.apple.com/cn/app/da-gua-wu-lin/id1018722423?mt=8&sysVer=9.2.1&type=001&productId=900", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:31:22 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:31:25 simulation.py[line:123] WARNING Ads Request:http://ads.imopan.com/sec/getBannerAd.bin
+Tue, 15 Mar 2016 16:31:25 connectionpool.py[line:207] INFO Starting new HTTP connection (1): ads.imopan.com
+Tue, 15 Mar 2016 16:31:25 connectionpool.py[line:387] DEBUG "POST /sec/getBannerAd.bin HTTP/1.1" 200 None
+Tue, 15 Mar 2016 16:31:25 simulation.py[line:95] WARNING Show Ads Pic:http://apk1.imopan.com/appsoft/cpa/imgs/201602/art_banner_640_100_124_20160217170630.jpg
+Tue, 15 Mar 2016 16:31:25 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://apk1.imopan.com/appsoft/cpa/imgs/201602/art_banner_640_100_124_20160217170630.jpg", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:31:26 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:31:26 simulation.py[line:123] WARNING Ads Request:http://ads.imopan.com/sec/getTableAd.bin
+Tue, 15 Mar 2016 16:31:26 connectionpool.py[line:207] INFO Starting new HTTP connection (1): ads.imopan.com
+Tue, 15 Mar 2016 16:31:26 connectionpool.py[line:387] DEBUG "POST /sec/getTableAd.bin HTTP/1.1" 200 None
+Tue, 15 Mar 2016 16:31:26 simulation.py[line:95] WARNING Show Ads Pic:http://apk1.imopan.com/appsoft/cpa/imgs/201512/art_110_20151202131238_resize_414_17586.jpg
+Tue, 15 Mar 2016 16:31:26 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://apk1.imopan.com/appsoft/cpa/imgs/201512/art_110_20151202131238_resize_414_17586.jpg", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:31:27 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:31:27 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://ads.imopan.com/sec/tableClick.bin?versoft=ios_banner_v1.0&s=56beb5f0e3d7274551b97c8f3ea9dfe3&idfa=92C3BA6F-FC7C-4D59-87E1-44B4C8045DDA&appId=110&link=https://itunes.apple.com/cn/app/heng-sao-qian-jun-tang-guo/id997636530?l=zh&ls=1&mt=8&sysVer=9.2.1&type=001&productId=900", "sessionId": "87df2fc50cf65451483e0134c575d788"}
+Tue, 15 Mar 2016 16:31:31 remote_connection.py[line:502] DEBUG Finished Request
+Tue, 15 Mar 2016 16:31:34 simulation.py[line:123] WARNING Ads Request:http://ads.imopan.com/sec/getBannerAd.bin
+Tue, 15 Mar 2016 16:31:34 connectionpool.py[line:207] INFO Starting new HTTP connection (1): ads.imopan.com
+Tue, 15 Mar 2016 16:31:34 connectionpool.py[line:387] DEBUG "POST /sec/getBannerAd.bin HTTP/1.1" 200 None
+Tue, 15 Mar 2016 16:31:34 simulation.py[line:95] WARNING Show Ads Pic:http://apk1.imopan.com/appsoft/cpa/imgs/201510/art_banner_640_100_102_20151026182905.jpg
+Tue, 15 Mar 2016 16:31:34 remote_connection.py[line:409] DEBUG POST http://127.0.0.1:55835/session/87df2fc50cf65451483e0134c575d788/url {"url": "http://apk1.imopan.com/appsoft/cpa/imgs/201510/art_banner_640_100_102_20151026182905.jpg", "sessionId": "87df2fc50cf65451483e0134c575d788"}

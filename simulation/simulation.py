@@ -9,6 +9,8 @@ import logging
 import json
 import random
 import time
+import uuid
+import hashlib
 from multiprocessing import Process, Queue, current_process
 from requests import Request, Session
 from splinter import Browser
@@ -30,6 +32,9 @@ class SimulatorConstant:
     class Modle:
         StandAlone = 'stand_alone'
         Distributed = 'distributed'
+
+    ProductId = '17586'
+    AppSecret = 'xku0rrl5177e7xbv'
 
 
 class AdsConstant:
@@ -55,11 +60,27 @@ class AdsMeta:
     AdsLink = 'link'
     Modle = "modle"
     Idfa = 'idfa'
+    Mac = 'mac'
     AppId = "appId"
     ProductId = "productId"
     SysVer = 'sysVer'
     Versoft = 'versoft'
     S = 's'
+
+
+# generate the ios idfa
+def _gen_idfa():
+    return string.upper(uuid.uuid4())
+
+
+# generate the ios mac address
+def _gen_mac():
+    mac_list = []
+    for i in range(1, 7):
+        randstr = "".join(random.sample("0123456789abcdef", 2))
+        mac_list.append(randstr)
+    rand_mac = ":".join(mac_list)
+    return rand_mac
 
 
 class AdsTaskProducer(Process):
@@ -75,6 +96,8 @@ class AdsTaskProducer(Process):
             i = 0
             while 1:
                 ads_task = reqs[i % reqs_count]
+                ads_task[AdsMeta.Idfa] = _gen_idfa()
+                ads_task[AdsMeta.Mac] = _gen_mac()
                 ads_tasks.put(ads_task)
                 i += 1
                 time.sleep(2)
@@ -104,7 +127,13 @@ class AdsSimulator(Process):
 
     @staticmethod
     def _gen_s(ads_info):
-        return '56beb5f0e3d7274551b97c8f3ea9dfe3'
+        product_id = SimulatorConstant.ProductId
+        secret = SimulatorConstant.AppSecret
+        app_id = ads_info.get(AdsMeta.AppId, '')
+        temp = product_id + secret + app_id
+        m = hashlib.md5()
+        m.update(temp)
+        return m.hexdigest()
 
     def ads_click(self, url, ads_info):
         ads_type = AdsConstant.TableClickType if url == AdsConstant.TableClickUrl else AdsConstant.BannerClickType
@@ -132,8 +161,12 @@ class AdsSimulator(Process):
         while 1:
             ads_task = ads_tasks.get()
             try:
+                url = ads_task[AdsMeta.URL]
+                data = ads_task[AdsMeta.Data]
+                if url == AdsConstant.BannerAdsUrl:
+                    data[AdsMeta.S] = AdsSimulator._gen_s(ads_task)
                 task_info = json.loads(
-                    self._ads_request(ads_task[AdsMeta.Method], ads_task[AdsMeta.URL], data=ads_task[AdsMeta.Data]))[
+                    self._ads_request(ads_task[AdsMeta.Method], url, data=data))[
                     AdsMeta.AdsObject]
                 self._show_pic(task_info[AdsMeta.ShowPicUrl])
                 if self._if_ads_click():
